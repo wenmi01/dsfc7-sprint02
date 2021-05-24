@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-data/
+#data/
 sample_webpage/
 old/
 preprocess_manual_download_csv.ipynb
