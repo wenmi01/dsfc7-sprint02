@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+data/
+sample_webpage/
+old/
+preprocess_manual_download_csv.ipynb
+consolidate_spotify_daily_charts.ipynb
+get_spotify_charts_data.ipynb
+scrape_spotify_charts.py
