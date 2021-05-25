@@ -1,2 +1,0 @@
-sudo apt install build-essential libpython3-dev libdbus-1-dev
-pip install dbus-python
