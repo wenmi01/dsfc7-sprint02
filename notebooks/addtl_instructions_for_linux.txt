@@ -1,6 +1,0 @@
-sudo apt install build-essential libpython3-dev libdbus-1-dev
-pip install dbus-python
-
-#
-sudo apt-get install -y keyrings.alt
-pip install keyrings.alt

@@ -1,0 +1,802 @@
+artist_id,artist_name,total_followers,genres,popularity
+0du5cEVh5yTK9QJze8zA0C,Bruno Mars,30647606,"['dance pop', 'pop']",95
+4IWBUUAFIplrNtaOHcJPRM,James Arthur,8048670,"['pop', 'post-teen pop', 'talent show', 'uk pop']",87
+69GGBxA162lTqCwzJG5jLp,The Chainsmokers,17876933,"['dance pop', 'edm', 'electropop', 'pop', 'pop dance', 'tropical house']",86
+04gDigrS5kc9YWfZHwBETP,Maroon 5,30804160,"['pop', 'pop rock']",92
+5p7f24Rk5HkUZsaS3BLG5F,Hailee Steinfeld,6766803,"['dance pop', 'pop', 'post-teen pop']",79
+2wUjUUtkb5lvLKcGKsKqsR,Alessia Cara,8869605,"['canadian contemporary r&b', 'canadian pop', 'dance pop', 'electropop', 'pop', 'post-teen pop']",82
+540vIaP2JwjQb9dm3aArA4,DJ Snake,7346903,"['dance pop', 'edm', 'electronic trap', 'pop', 'pop dance', 'pop rap']",84
+1Xyo4u8uXC1ZmMpatF05PJ,The Weeknd,32374146,"['canadian contemporary r&b', 'canadian pop', 'pop']",97
+46GXASE9LHzyssNqKOInUu,Dawin,211755,['nyc pop'],58
+738wLrAtLtCtFOLvQBXOXp,Major Lazer,6199196,"['dance pop', 'edm', 'electro house', 'moombahton', 'pop', 'pop dance', 'pop rap']",83
+1HBjj22wzbscIZ9sEb5dyf,Jonas Blue,3237494,"['dance pop', 'edm', 'pop', 'pop dance', 'tropical house', 'uk dance']",82
+6TIYQ3jFPwQSRmorSezPxX,Machine Gun Kelly,3532948,"['ohio hip hop', 'pop rap']",90
+5ZsFI1h6hIdQRw2ti0hz81,ZAYN,15787010,"['dance pop', 'pop', 'post-teen pop', 'uk pop']",85
+7gAppWoH7pcYmphCVTXkzs,The Vamps,4447433,"['boy band', 'dance pop', 'pop', 'post-teen pop']",77
+60d24wfXkVzDSfLS6hyCjZ,Martin Garrix,14679667,"['dance pop', 'dutch edm', 'edm', 'pop', 'pop dance', 'progressive house', 'tropical house']",85
+66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,62941105,"['dance pop', 'pop', 'post-teen pop']",97
+02A3cEvlLLCbIMVDrK2GHV,Starley,135961,"['aussietronica', 'pop dance', 'tropical house']",64
+2oX42qP5ineK3hrhBECLmj,Andy Grammer,940582,"['dance pop', 'modern rock', 'neo mellow', 'pop', 'pop rock', 'post-teen pop']",78
+7n2wHs1TKAczGzO7Dd2rGr,Shawn Mendes,32857027,"['canadian pop', 'dance pop', 'pop', 'post-teen pop', 'viral pop']",90
+6MDME20pz9RveH9rEXvrOM,Clean Bandit,4339845,"['dance pop', 'edm', 'pop', 'pop dance', 'post-teen pop', 'tropical house', 'uk dance', 'uk funky']",82
+0jKQrxK2zHqxyOAyIMrUQt,SUD,328970,"['opm', 'pinoy rock']",57
+6VuMaDnrHyPL1p4EHjYLi7,Charlie Puth,13085874,"['dance pop', 'pop', 'post-teen pop', 'viral pop']",84
+77AiFEVeAVj2ORpC85QVJs,Steve Aoki,3551936,"['dance pop', 'edm', 'electro house', 'pop dance', 'tropical house']",81
+3e7awlrlDSwF3iM0WBjGMp,Little Mix,9094756,"['dance pop', 'girl group', 'pop', 'post-teen pop', 'talent show', 'uk pop']",86
+3iri9nBFs9e4wN7PLIetAw,gnash,1592443,"['alt z', 'electropop', 'indie cafe pop', 'pop', 'sad rap', 'social media pop']",74
+31TPClRtHm23RisEBtV3X7,Justin Timberlake,10767427,"['dance pop', 'pop']",85
+7iZtZyCzp3LItcw1wtPI3D,Rae Sremmurd,6397143,"['hip hop', 'melodic rap', 'mississippi hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",78
+3WGpXCj9YhhfX11TToZcXP,Troye Sivan,5653274,"['australian pop', 'dance pop', 'electropop', 'pop', 'post-teen pop', 'viral pop']",83
+3TVXtAsR1Inumwj472S9r4,Drake,54757143,"['canadian hip hop', 'canadian pop', 'hip hop', 'pop rap', 'rap', 'toronto rap']",100
+6Dd3NScHWwnW6obMFbl1BH,Daya,1240121,"['alt z', 'dance pop', 'edm', 'electropop', 'indie poptimism', 'pop', 'pop dance', 'post-teen pop', 'tropical house', 'uk pop']",78
+7nKeLE1toRtW4M279iS26h,Zay Hilfigerrr,62648,[],48
+4nGp682WMiKS4X217kPw8C,Silent Sanctuary,2041730,"['opm', 'pinoy rock', 'tagalog rap']",65
+2LZDXcxJWgsJfKXZv9a5eG,Cashmere Cat,310453,"['dance pop', 'downtempo', 'pop', 'post-teen pop', 'shiver pop']",62
+3tQx1LPXbsYjE9VwN1Peaa,Marc E. Bassy,356694,"['electropop', 'indie poptimism', 'pop', 'pop rap', 'r&b', 'rap']",73
+6lB8vOoI4DRrrVxXwuV19c,Mike Perry,1163796,"['dance pop', 'deep tropical house', 'edm', 'electro house', 'pop', 'pop dance', 'pop edm', 'swedish tropical house', 'tropical house']",72
+50JJSqHUf2RQ9xsHs0KMHg,Jon Bellion,1207243,['pop rap'],75
+3wbCeEPAW6po7J46netxMT,Up Dharma Down,702759,"['opm', 'pinoy indie', 'pinoy reggae', 'pinoy rock', 'pop rock']",59
+0q4NrXqJnc367PieejuROJ,Vice,19201,['chicano rap'],53
+6eUKZXaKkcviH0Ku9w2n3V,Ed Sheeran,80117573,"['pop', 'uk pop']",93
+0rZRTXEmmPmx6gt92tBqIc,Moira Dela Torre,5826668,['opm'],73
+3r3Rkuc4jmZHXgchgaXwnv,Suzi,8068,[],46
+15NtJjjHRFybdNSMyM9smT,Nevada,13988,['eurodance'],52
+7CajNmpbOovFoOoasH2HaY,Calvin Harris,21661940,"['dance pop', 'edm', 'electro house', 'house', 'pop', 'pop dance', 'progressive house', 'uk dance']",89
+1l8Fu6IkuTP0U5QetQJ5Xt,Fifth Harmony,12679950,"['dance pop', 'girl group', 'pop', 'post-teen pop', 'talent show']",76
+1vg8YXdgvLLPPeXZkM7g5W,Daryl Ong,485526,['opm'],52
+1Xylc3o4UrD53lo9CvFvVg,Zara Larsson,8772632,"['dance pop', 'edm', 'electropop', 'pop', 'pop dance', 'post-teen pop', 'scandipop', 'swedish electropop', 'swedish pop', 'tropical house']",83
+0NGAZxHanS9e0iNHpR8f2W,Alok,10008166,"['electro house', 'pop nacional', 'slap house']",87
+787bCXOIvGeBw0Bc4kEjhD,Luke Christopher,157519,"['indie pop rap', 'pop rap']",58
+0DnjaQqb436AH1idffI6CQ,Yeng Constantino,1908507,['opm'],60
+1uNFoZAHBGtllmzznpCI3s,Justin Bieber,45718068,"['canadian pop', 'pop', 'post-teen pop']",99
+1t2caVgyabZrVDAlmMGraV,Michael Pangilinan,1232818,['opm'],60
+3Gm5F95VdRxW3mqCn8RPBJ,Aminé,1586392,"['hip hop', 'pop rap', 'portland hip hop', 'rap', 'underground hip hop']",78
+2KsP6tYLJlTBvSUxnwlVWa,Mike Posner,1148054,"['dance pop', 'pop', 'pop rap']",78
+25u4wHJWxCA9vO0CzxAbK7,Lukas Graham,1805646,"['danish pop', 'pop', 'scandipop']",78
+05o1zW8b6PV6rEquXr74sB,State of Sound,41311,"['deep tropical house', 'swedish tropical house', 'tropical house']",50
+5y2Xq6xcjJb2jVM54GHK3t,John Legend,5659774,"['neo soul', 'pop', 'pop soul', 'r&b', 'urban contemporary']",84
+5WUlDfRSoLAfcVSX1WnrxN,Sia,19710848,"['australian dance', 'australian pop', 'dance pop', 'pop']",91
+4BNWanhw4AjSXjBm9L1Jzy,Juris,541509,['opm'],59
+6T5tfhQCknKG4UnH90qGnz,DNCE,3723846,"['dance pop', 'pop', 'pop rock', 'post-teen pop']",72
+2kZThDGZcHl4klYYFk0v8n,Moonstar88,655070,"['opm', 'pinoy rock', 'pop rock']",56
+4dpARuHxo51G3z768sgnrY,Adele,27210451,"['british soul', 'pop', 'pop soul', 'uk pop']",86
+4qzcg58jZdJ9ujEI6Cs3Ad,Krissy,14731,['opm'],42
+0bdfiayQAKewqEvaU6rXCv,MØ,1328598,"['art pop', 'dance pop', 'danish pop', 'electropop', 'indie poptimism', 'pop', 'tropical house']",76
+6JL8zeS1NmiOftqZTRgdTz,Meghan Trainor,10398564,"['dance pop', 'hip pop', 'pop', 'post-teen pop']",81
+3t5xRXzsuZmMDkQzgOX35S,Robin Schulz,2726718,"['dance pop', 'deep euro house', 'deep house', 'edm', 'german dance', 'pop', 'pop dance', 'tropical house']",85
+4gzpq5DPGxSnKTe4SA8HAU,Coldplay,30148388,"['permanent wave', 'pop']",91
+7vk5e3vY1uw9plTHJAMwjN,Alan Walker,28588781,['electro house'],86
+5M0lbkGluOPXLeFjApw8r8,Shelley FKA DRAM,804940,"['alternative r&b', 'pop rap', 'r&b', 'rap', 'trap', 'underground hip hop', 'virginia hip hop']",69
+3YQKmKGau1PzlVlkL1iodx,Twenty One Pilots,20341453,"['modern rock', 'rock']",89
+6aiCKnIN68hohzU3ZzNq48,Sarah Geronimo,2595041,['opm'],63
+2tQbSWgZLIB8MXMnsXVRro,Nina,483745,"['dance pop', 'opm']",61
+2JEIN1g27pZdm3hKB9EwE5,Mark Carpio,131140,['opm'],56
+5elcNQkZ6FCZA3grSOMngY,MYMP,695730,['opm'],65
+6d47Z08T4snK50HgTEHo5Z,Sage The Gemini,751701,"['dance pop', 'hyphy', 'pop rap', 'rap', 'southern hip hop', 'trap']",71
+6gK1Uct5FEdaUWRWpU4Cl2,Petit Biscuit,867061,"['new french touch', 'tropical house']",73
+6ZgBJRjJsK1iOJGKGZxEUv,South Border,682267,['opm'],60
+24fEOzlKhgSNLIcy9NdmwH,James Reid,288513,"['deep neofolk', 'opm', 'pinoy r&b', 'tagalog rap']",56
+3nZa8vRD64ueq3d0JNYTsl,6cyclemind,697713,"['opm', 'pinoy rock', 'tagalog rap']",58
+5pKCCKE2ajJHZ9KAiaK11H,Rihanna,42779076,"['barbadian pop', 'dance pop', 'pop', 'post-teen pop', 'urban contemporary']",93
+6s22t5Y3prQHyaHWUN1R1C,AJR,1798464,['modern rock'],82
+2wY79sveU1sp5g7SokKOiI,Sam Smith,16445257,"['dance pop', 'pop', 'post-teen pop', 'uk pop']",89
+4NeCu267LZemnoq44lZYKy,Julie Anne San Jose,495474,['opm'],56
+21E3waRsmPlU7jZsS13rcj,Ne-Yo,6099321,"['dance pop', 'pop', 'pop rap', 'r&b', 'urban contemporary']",83
+0ekbDNE2eOq8QiaXM34wer,Howie Day,271105,"['acoustic pop', 'neo mellow', 'pop rock']",61
+2GqX0GnrKdi6Z2X2OReYOK,Piolo Pascual,181697,['opm'],50
+1ZfhyWZ9byvjFKEzBSa81I,Freestyle,52908,[],9
+1Hsdzj7Dlq2I7tHP7501T4,Niall Horan,7254009,"['dance pop', 'pop', 'post-teen pop']",83
+3C4t1usFGoKHCSRdujm2GN,Ryan Cabrera,65818,"['neo mellow', 'pop rock']",54
+2Hjj68yyUPiC0HKEOigcEp,Jesse McCartney,806055,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'viral pop']",68
+4AK6F7OLvEQ5QYCBNiQWHq,One Direction,21399794,"['boy band', 'pop', 'post-teen pop', 'talent show']",91
+6ydoSd3N2mwgwBHtF6K7eX,Calum Scott,3328220,"['indie cafe pop', 'pop']",77
+0EmeFodog0BfCgMzAIvKQp,Shakira,21662747,"['colombian pop', 'dance pop', 'latin', 'latin pop', 'pop']",88
+3wjsrpfO6odEphTZWx45RQ,Hearts & Colors,114635,"['post-teen pop', 'viral pop']",59
+2sil8z5kiy4r76CRTXxBCA,The Goo Goo Dolls,1919780,"['alternative rock', 'neo mellow', 'permanent wave', 'pop rock', 'post-grunge']",75
+0jNDKefhfSbLR9sFvcPLHo,San Holo,626037,"['edm', 'electro house', 'electronic trap', 'electropop', 'future bass', 'pop dance', 'pop edm', 'vapor twitch']",67
+64M6ah0SkkRsnPGtGiRAbb,Bebe Rexha,6390979,"['dance pop', 'electropop', 'pop', 'post-teen pop']",86
+3AQRLZ9PuTAozP28Skbq8V,The Script,6608924,"['celtic rock', 'dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'viral pop']",79
+2mxe0TnaNL039ysAj51xPQ,R. Kelly,2272406,[],73
+5oWOx0BBDSMoFB8JDrjQre,Katharine McPhee,141332,"['idol', 'post-teen pop']",54
+55fhWPvDiMpLnE4ZzNXZyW,Noah Cyrus,853900,"['alt z', 'dance pop', 'pop', 'post-teen pop']",80
+6oMuImdp5ZcFhWP0ESe6mG,Migos,11432847,"['atl hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",85
+5H6xmHXjsq98NLbEjuE29f,NEIKED,97554,['scandipop'],59
+6w7j5wQ5AI5OQYlcM15s2L,Extreme,379200,"['album rock', 'funk metal', 'glam metal', 'hard rock', 'rock']",67
+1anyVhU62p31KFi8MEzkbf,Chance the Rapper,5302459,"['chicago rap', 'conscious hip hop', 'hip hop', 'pop rap', 'rap']",85
+02kJSzxNuaWGqwubyUba0Z,G-Eazy,4838498,"['hip hop', 'indie pop rap', 'oakland hip hop', 'pop rap', 'rap']",85
+6X9aYHnQ75YI8o08aoa0iS,Boyzone,705983,"['boy band', 'bubblegum dance', 'dance pop', 'europop', 'pop rock']",64
+4ehtJnVumNf6xzSCDk8aLB,Martin Jensen,1088651,"['dance pop', 'danish electronic', 'edm', 'electro house', 'pop', 'pop dance', 'pop edm', 'tropical house']",77
+0t7vWPRBcVv4xBEHPZHSWA,Sitti,67324,['opm'],53
+1vSN1fsvrzpbttOYGsliDr,Tori Kelly,1903291,"['dance pop', 'pop', 'post-teen pop', 'r&b', 'viral pop']",74
+5ILrArfIV0tMURcHJN8Q07,Vanessa Carlton,471000,"['dance pop', 'lilith', 'neo mellow', 'piano rock', 'pop rock', 'post-teen pop']",68
+6dC0rIJNLSFZwqckLgXJ8p,Timeflies,312255,"['dance pop', 'indie pop rap', 'indie poptimism', 'pop', 'pop dance', 'pop rap', 'pop rock', 'post-teen pop', 'tropical house']",63
+69ug07KFFRhcCZ7iZ1Mn1i,Bailey May,55747,[],33
+2Rf4X6m0oayCJhaJ5K63GQ,Nathan Sykes,472923,['post-teen pop'],62
+5X4LWwbUFNzPkEas04uU82,DVBBS,899962,"['canadian electronic', 'edm', 'electro house', 'pop dance', 'pop edm', 'progressive electro house', 'slap house', 'tropical house']",72
+0C8ZW7ezQVs4URX5aX7Kqx,Selena Gomez,27359392,"['dance pop', 'pop', 'post-teen pop']",90
+36jaGQtMj5UWD0eO1fCVdD,Joel Adams,152832,"['australian pop', 'pop soul']",63
+5PokPZn11xzZXyXSfnvIM3,Lifehouse,1627189,"['alternative metal', 'neo mellow', 'pop rock', 'post-grunge']",71
+5aMmmNxw4vgpc5XC6hK0zp,The Calling,573830,"['neo mellow', 'pop rock']",66
+2FwJwEswyIUAljqgjNSHgP,Snakehips,331825,"['dance pop', 'edm', 'electropop', 'indie poptimism', 'pop', 'pop dance', 'tropical house']",70
+0AJUYWKztkg5dnrHDIBv47,MiC LOWRY,44608,[],44
+4phGZZrJZRo4ElhRtViYdl,Jason Mraz,6032249,"['acoustic pop', 'neo mellow', 'pop', 'pop rock']",80
+7374lH6kwx9uQATYQ9H3Cp,Eraserheads,1976924,"['opm', 'pinoy reggae', 'pinoy rock']",67
+6aZyMrc4doVtZyKNilOmwu,Colbie Caillat,2106030,"['acoustic pop', 'dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'viral pop']",76
+3RpJ6OyOnaXRFRXSirgQa6,Jericho Rosales,80054,['opm'],47
+6wPhSqRtPu1UhRCDX5yaDJ,The Pussycat Dolls,4298599,"['dance pop', 'girl group', 'pop', 'pop rap', 'post-teen pop', 'urban contemporary']",75
+2WzaAvm2bBCf4pEhyuDgCY,Ruth B.,1064588,"['alt z', 'canadian contemporary r&b', 'canadian pop', 'indie cafe pop', 'pop', 'post-teen pop']",75
+7xEFii6utZmQ61kX59HmLH,FRENSHIP,157947,"['electropop', 'indie poptimism', 'la pop', 'pop dance', 'pop edm', 'tropical house', 'vapor soul']",61
+7DW4ijH3n36QN0RlC0n649,Angeline Quinto,409275,['opm'],57
+5lXfVoQxVgC5fpjkVqvNYn,Isaiah Firebrace,49481,['australian pop'],57
+4PVn1b2WnnXdq80C7uaZLZ,Nause,196343,"['edm', 'pop dance', 'progressive electro house', 'swedish pop']",54
+0jnsk9HBra6NMjO2oANoPY,Flo Rida,8073115,"['dance pop', 'miami hip hop', 'pop', 'pop rap']",84
+0hEurMDQu99nJRq8pTxO14,John Mayer,5040930,"['neo mellow', 'pop', 'pop rock', 'singer-songwriter']",84
+7H55rcKCfwqkyDFH9wpKM6,Christina Perri,2982785,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'viral pop']",76
+1Fr6agZ6iSM5Ynn2k4C8sc,VÉRITÉ,248915,"['alt z', 'brooklyn indie', 'electropop', 'indie cafe pop', 'indie electropop', 'indie pop', 'indie poptimism', 'metropopolis', 'nyc pop', 'pop', 'vapor pop', 'vapor soul']",57
+5BAyYwbv8OSfqeXMjPgWX6,Toni Gonzaga,568361,"['opm', 'papuri']",56
+0DdDnziut7wOo6cAYWVZC5,KREAM,151277,"['dance pop', 'deep house', 'edm', 'electro house', 'house', 'pop dance', 'pop edm', 'tropical house']",68
+6Ww3OMFzCaO33ulKh1LBFN,Hale,605592,"['opm', 'pinoy reggae', 'pinoy rock']",62
+2nZ18B9RTjJH56v2NTnNAI,Leanne & Naara,49020,"['opm', 'pinoy indie']",55
+6nxWCVXbOlEVRexSbLsTer,Flume,2168260,"['australian dance', 'australian electropop', 'australian indie', 'downtempo', 'edm']",77
+4TH4BHy0LdBi3dpBW4P2UX,R. City,119217,"['reggae fusion', 'virgin islands reggae']",67
+5mnS9jJdKQQcRSqFu5YPVe,Auli'i Cravalho,70122,"['disney', 'hollywood', 'movie tunes', 'show tunes']",70
+2LJxr7Pt3JnP60eLxwbDOu,Mandy Moore,567201,"['dance pop', 'europop', 'hollywood', 'movie tunes', 'post-teen pop', 'show tunes']",69
+0lzV2CiahHRiGd6qpADtPS,James Hersey,50054,['tropical house'],57
+4bYPcJP5jwMhSivRcqie2n,Adam Levine,879328,['pop rock'],79
+62WbvkXqQGvXQvw74GU3kQ,Morissette,997415,['opm'],57
+0gadJ2b9A4SKsB1RFkBb66,Passenger,2784021,"['folk-pop', 'neo mellow', 'pop', 'pop rock']",78
+6jJ0s89eD6GaHleKKya26X,Katy Perry,18276714,"['dance pop', 'pop', 'post-teen pop']",89
+5mNum7eUoqWS6NBo91NYHP,Abra,23518,[],19
+0AuZVHIr5WSEBbBLZwWwWc,Charice,126456,"['dance pop', 'opm', 'post-teen pop', 'viral pop']",53
+2MqhkhX4npxDZ62ObR5ELO,Hoobastank,1782586,"['alternative metal', 'funk metal', 'nu metal', 'pop rock', 'post-grunge', 'rap rock']",71
+6jV25rzTKQ2zMgrqHha1V5,CHANYEOL,1331976,['k-pop'],69
+7KMqksf0UMdyA0UCf4R3ux,James Blunt,2401945,"['neo mellow', 'pop', 'pop rock']",77
+0zOcE3mg9nS6l3yxt1Y0bK,The Fray,3310294,"['neo mellow', 'piano rock', 'pop', 'pop rock']",76
+4kYGAK2zu9EAomwj3hXkXy,JP Cooper,636847,"['indie cafe pop', 'neo mellow', 'pop', 'pop rock', 'tropical house', 'uk pop']",77
+6vWDO969PvNqNYHIOW5v0m,Beyoncé,27418051,"['dance pop', 'pop', 'post-teen pop', 'r&b']",89
+7xTcuBOIAAIGDOSvwYFPzk,Daniel Powter,207324,"['canadian pop', 'neo mellow', 'pop rock']",65
+11hIqBsGRPztdjBHCSLClX,Daniel Bedingfield,131378,"['dance pop', 'europop']",59
+4KOFxteqSAveWCElBVijTy,Joshua Garcia,31894,[],24
+1mcqfNCReSFxun2vIWvC28,KZ Tandingan,645275,['opm'],60
+719ZCUqy59oGckcB1MzVTx,The Company,19052,[],44
+4HOEnLufwAqJ2qoJPVnL01,Callalily,986358,"['opm', 'pinoy rock', 'tagalog rap']",58
+7HJDRQAfEcFiARVehhM6qD,Gloc 9,805832,"['opm', 'pinoy hip hop', 'pinoy trap', 'tagalog rap']",62
+6xfqnpe2HnLVUaYXs2F8YS,Anna Kendrick,291457,"['hollywood', 'show tunes']",70
+5JZ7CnR6gTvEMKX4g70Amv,Lauv,4241302,"['electropop', 'pop', 'post-teen pop']",85
+1HY2Jd0NmPuamShAr6KMms,Lady Gaga,17444528,"['dance pop', 'pop', 'post-teen pop']",90
+4EzkuveR9pLvDVFNx6foYD,James Bay,3359617,"['modern rock', 'neo mellow', 'pop', 'pop rock']",79
+188VINPQh5dyNfLUkevKqf,Olivia Holt,956700,"['alt z', 'dance pop', 'pop', 'post-teen pop', 'social media pop']",59
+7hOGhpa8RMSuDOWntGIAJt,A R I Z O N A,360903,"['electropop', 'indie poptimism', 'pop', 'pop dance', 'pop edm', 'tropical house']",70
+3zrUX1hQrUB9aXcOiyQLmN,Stanaj,59789,[],56
+6kXm2YCtdUOpRYNKeKhfue,Ryan Gosling,36043,['hollywood'],60
+3rIZMv9rysU7JkLzEaC5Jp,Snow Patrol,2258091,"['irish rock', 'modern rock', 'neo mellow', 'permanent wave', 'pop rock', 'rock']",74
+0ZED1XzwlLHW4ZaG4lOT6m,Julia Michaels,3872869,"['alt z', 'dance pop', 'electropop', 'pop', 'post-teen pop']",84
+0XOSmu9Qn1agQULUVe0dAK,Inigo Pascual,407705,['opm'],55
+49tQo2QULno7gxHutgccqF,LANY,3577658,"['la pop', 'pop', 'post-teen pop']",78
+6aLdhHUqgdKE86xbtNmY8g,Crush,840710,"['chill r&b', 'k-pop', 'korean r&b']",71
+64KEffDW9EtZ1y2vBYgq8T,Marshmello,30639270,"['brostep', 'edm', 'pop', 'pop dance', 'progressive electro house']",89
+1XLjkBxFokuDTlHt0mQkRe,Thomas Gold,149680,"['big room', 'edm', 'electro house', 'funky tech house', 'german techno', 'house', 'pop dance', 'pop edm', 'progressive electro house', 'progressive house', 'sky room']",59
+6O74knDqdv3XaWtkII7Xjp,Boyz II Men,2115097,"['boy band', 'new jack swing', 'quiet storm', 'r&b', 'urban contemporary']",71
+4lDBihdpMlOalxy1jkUbPl,Grey,58820,"['alt z', 'pop edm']",74
+1tXFYQZSAswt4JLB42lpye,Sponge Cola,840756,"['opm', 'pinoy reggae', 'pinoy rock', 'tagalog rap']",60
+4V8Sr092TqfHkfAA5fXXqG,Luis Fonsi,9404663,"['latin', 'latin pop', 'puerto rican pop']",81
+4U78sK2D3zASSB6oSR38GQ,Christian Bautista,362849,['opm'],61
+3DiDSECUqqY1AuBP8qtaIa,Alicia Keys,8658415,"['hip pop', 'neo soul', 'pop', 'r&b', 'urban contemporary']",83
+58MLl9nC29IXbE4nEtuoP2,Alex & Sierra,1016492,"['indie cafe pop', 'neo mellow', 'pop', 'post-teen pop', 'viral pop']",68
+53XhwfbYqKCa1cC15pYq2q,Imagine Dragons,34128107,"['modern rock', 'rock']",91
+5338fdSzGNOFD4cxAxDTeq,Aaron Carter,226857,"['dance pop', 'post-teen pop']",50
+0c173mlxpT3dSFRgMO8XPh,Big Sean,8455074,"['detroit hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",86
+4NagmapOfJiPOxJ9vQsrsf,Mikkel S. Eriksen,190,[],28
+4Rxn7Im3LGfyRkY2FlHhWi,Nick Jonas,7341451,"['dance pop', 'pop', 'post-teen pop', 'viral pop']",76
+7LVPSD4kabI5LiXIVPI8tn,Jona,98511,['opm'],49
+74KM79TiuVKeVCqs8QtB0B,Sabrina Carpenter,3539877,"['alt z', 'dance pop', 'electropop', 'pop', 'post-teen pop', 'viral pop']",79
+1DZGAZcaTA32eLJELEsjXY,Kiana V,34196,['pinoy indie'],43
+4qBgvVog0wzW75IQ48mU7v,KYLE,968818,"['pop', 'pop rap', 'rap', 'social media pop']",74
+2yEkZBBjhzKzt6LF5XMaFi,Blue,398248,"['boy band', 'dance pop', 'europop']",65
+1GxkXlMwML1oSg5eLPiAz3,Michael Bublé,4570286,"['adult standards', 'canadian pop', 'jazz pop', 'lounge']",79
+3Nrfpe0tUJi4K4DXYWgMUX,BTS,33073199,"['k-pop', 'k-pop boy group']",97
+0dtmYDbYpwcdHPBI1OJatT,Hugh Grant,5425,['hollywood'],51
+5rSXSAkZ67PYJSvpUpkOr7,Backstreet Boys,3848110,"['boy band', 'dance pop']",80
+2XMxHczWkSzDDFhiC3zt8k,Marié Digby,63826,['lilith'],48
+0L6Gwm0JDrgIQJfjarWSUR,Edwin McCain,235922,"['acoustic pop', 'neo mellow', 'pop rock']",61
+0AvtzKTYleNqdJXoZasQWG,Stephen Speaks,119683,"['acoustic pop', 'neo mellow', 'opm', 'pop rock']",60
+6Ff53KvcvAj5U7Z1vojB5o,*NSYNC,1507874,"['boy band', 'dance pop', 'pop', 'post-teen pop']",73
+0lJlKQvuM2Sd9DPPyUXcHg,Sixpence None The Richer,326266,"['neo mellow', 'pop rock']",67
+0X2BH1fck6amBIoJhDVmmJ,Ellie Goulding,9460371,"['dance pop', 'edm', 'electropop', 'indietronica', 'metropopolis', 'pop', 'post-teen pop', 'uk pop']",84
+3QLIkT4rD2FMusaqmkepbq,Rachel Platten,823747,"['dance pop', 'pop', 'post-teen pop', 'viral pop']",70
+3z0IVhtuFvt9VYUZGT98PU,Jay R,117831,['opm'],51
+5Pwc4xIPtQLFEnJriah9YJ,OneRepublic,11796518,"['dance pop', 'piano rock', 'pop', 'pop rock', 'post-teen pop']",86
+3FUY2gzHeIiaesXtOAdB7A,Train,3678398,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop']",79
+0xNog7ZdcTq9sJFiIXJJTH,Kaye Cal,392105,['opm'],50
+246dkjvS1zLTtiykXe5h60,Post Malone,32573805,"['dfw rap', 'melodic rap', 'rap']",94
+23fqKkggKUBHNkbKtXEls4,Kygo,7438247,"['edm', 'pop', 'pop dance', 'tropical house']",88
+6XyY86QOPPrYVGvF9ch6wz,Linkin Park,18890988,"['alternative metal', 'nu metal', 'post-grunge', 'rap metal']",88
+09DdQEMQaaq0f99vqqub3V,krissy & ericka,20968,['acoustic opm'],50
+00FQb4jTyendYWaN8pK0wa,Lana Del Rey,13012073,"['art pop', 'pop']",89
+2qxJFvFYMEDqd7ui6kSAcq,Zedd,5455901,"['complextro', 'dance pop', 'edm', 'electro house', 'electropop', 'german techno', 'pop', 'pop dance', 'post-teen pop', 'tropical house']",82
+07YZf4WDAMNwqr4jfgOZ8y,Jason Derulo,9382238,"['dance pop', 'pop', 'pop rap', 'post-teen pop']",88
+2kucQ9jQwuD8jWdtR9Ef38,Sam Hunt,2082419,"['contemporary country', 'country pop']",79
+1bqxdqvUtPWZri43cKHac8,MAX,669345,"['dance pop', 'electropop', 'pop', 'pop rap', 'post-teen pop', 'viral pop']",77
+163tK9Wjr9P9DmM0AVK7lm,Lorde,7623468,"['art pop', 'dance pop', 'electropop', 'metropopolis', 'nz pop', 'pop', 'post-teen pop']",82
+1RyvyyTE3xzB2ZywiAwp0i,Future,10206039,"['atl hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",92
+6LuN9FCkKOj5PcnpouEgny,Khalid,13851830,['pop'],93
+1xHQO9GJIW9OXHxGBISYc5,Marian Hill,440818,"['electropop', 'indie poptimism']",63
+4Q6nIcaBED8qUel8bBx6Cr,Jax Jones,911388,"['dance pop', 'edm', 'electro house', 'house', 'pop', 'pop dance', 'pop rap', 'post-teen pop', 'tropical house', 'uk dance']",78
+5yVM85m9yNcHO6o0vaaVxW,Daniel Padilla,423491,['opm'],58
+4S9EykWXhStSc15wEx8QFK,Céline Dion,4857653,"['canadian pop', 'dance pop']",79
+4N3cNXg5phUzRzuJYYxQlV,Emma Watson,66616,"['disney', 'hollywood', 'movie tunes', 'show tunes']",58
+4tB1f1h4TQqDz4bNaibMpl,Emma Thompson,2871,['show tunes'],55
+5lLVsxABqSuosfqAoLQeXV,Dan Stevens,4217,"['disney', 'hollywood', 'movie tunes', 'show tunes']",55
+105Paee9vmV5rfLSG652e1,Ewan McGregor,26085,['hollywood'],59
+1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,22565322,"['big room', 'dance pop', 'edm', 'pop', 'pop dance']",92
+6M2wZ9GZgrQXHCFfjv46we,Dua Lipa,24983144,"['dance pop', 'pop', 'uk pop']",96
+2MoxYOhy9ooC8KRcdgIFif,Leroy Styles,3585,['dutch edm'],31
+7DMveApC7UnC2NPfPvlHSU,Cheat Codes,1861426,"['dance pop', 'edm', 'electro house', 'electropop', 'pop', 'pop dance', 'pop edm', 'post-teen pop', 'tropical house']",80
+2YZyLoL8N0Wb9xBt1NhZWg,Kendrick Lamar,17341214,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",90
+0uGk2czvcpWQA383Im6ajf,Maggie Lindemann,1525446,"['alt z', 'pop', 'post-teen pop', 'social media pop']",73
+6KImCVD70vtIoJWnq6nGn3,Harry Styles,14731721,"['pop', 'post-teen pop']",91
+26VFTg2z8YR0cCuwLzESi2,Halsey,14980403,"['dance pop', 'electropop', 'etherpop', 'indie poptimism', 'pop', 'post-teen pop']",90
+2cFrymmkijnjDg9SS92EPM,blackbear,4134392,"['electropop', 'pop', 'pop rap']",88
+4u5smJBskI6Adzv08PuiUP,Kiiara,764746,"['alt z', 'dance pop', 'electropop', 'indie poptimism', 'pop', 'post-teen pop']",71
+74XFHRwlV6OrjEM0A2NCMF,Paramore,6003238,"['candy pop', 'emo', 'pixie', 'pop emo', 'pop punk']",82
+7ygtjsCTrCQZAYYPOne9uE,Erik Santos,520917,['opm'],58
+6ltzsmQQbmdoHHbLZ4ZN25,Lord Huron,852484,"['indie folk', 'indie pop', 'stomp and holler']",78
+4TrraAsitQKl821DQY42cZ,Sigrid,530851,"['dance pop', 'norwegian pop', 'pop']",65
+0QHgL1lAIqAw0HtD7YldmP,DJ Khaled,6082305,"['hip hop', 'miami hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap']",88
+6vXTefBL93Dj5IqAWq6OTv,French Montana,3941926,"['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",82
+7blkMNJv8n9ceP9zlA4W2U,Shawn Hook,59826,['canadian pop'],52
+4xRYI6VqpkE3UwrDrAZL8L,Logic,5343787,"['conscious hip hop', 'dmv rap', 'hip hop', 'pop rap', 'rap']",84
+4O15NlyKLIASxsJ0PrXPfz,Lil Uzi Vert,11396978,"['melodic rap', 'philly rap', 'rap', 'trap']",92
+5YGY8feqx7naU7z4HrwZM6,Miley Cyrus,15096389,"['dance pop', 'pop', 'post-teen pop']",90
+5pUo3fmmHT8bhCyHE52hA6,Liam Payne,7688897,"['dance pop', 'pop', 'post-teen pop', 'social media pop']",76
+4nDoRrQiYLoBzwC5BhVJzF,Camila Cabello,21585836,"['dance pop', 'electropop', 'pop', 'post-teen pop']",86
+4iSU0hKfGnU2nscL5dLi9p,Claudia,17072,['pinoy r&b'],34
+73sIBHcqh3Z3NyqHKZ7FOL,Childish Gambino,7840669,"['atl hip hop', 'hip hop', 'pop rap', 'rap']",82
+5CCwRZC6euC8Odo6y9X8jr,Rita Ora,6620195,"['australian pop', 'dance pop', 'edm', 'electropop', 'pop', 'pop rap', 'post-teen pop', 'tropical house', 'uk pop']",80
+4VkqlQl3hGhxjchI34xp2V,Thyro,7997,['opm'],56
+1yxSLGMDHlW21z4YXirZDS,Black Eyed Peas,5715863,"['dance pop', 'pop', 'pop rap']",87
+06HL4z0CvFAxyc27GXpf02,Taylor Swift,39799162,"['pop', 'post-teen pop']",98
+2XnBwblw31dfGnspMIwgWz,Axwell /\ Ingrosso,2291439,"['dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'tropical house']",73
+20gsENnposVs2I4rQ5kvrf,Sam Feldt,623903,"['dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'pop edm', 'tropical house']",81
+1IueXOQyABrMOprrzwQJWN,Sigala,1273899,"['dance pop', 'edm', 'house', 'pop', 'pop dance', 'tropical house']",79
+7lIVjtsgz0y1oRQFBAVNzq,Mayonnaise,634527,"['opm', 'pinoy rock']",59
+41MozSoPIsD1dJM0CLPjZF,BLACKPINK,21841790,"['k-pop', 'k-pop girl group']",88
+00TKPo9MxwZ0j4ooveIxWZ,Loote,167900,"['alt z', 'dance pop', 'electropop', 'indie poptimism', 'nyc pop', 'pop', 'pop dance', 'pop edm', 'post-teen pop', 'tropical house']",69
+3JhNCzhSMTxs9WLGJJxWOY,Macklemore,1726297,"['pop rap', 'seattle hip hop']",81
+4DTbdShHu2RPYEEMUp2XWV,Anjulie,23542,['canadian pop'],67
+6eouuqqGggqDlYRV63cgPo,Secondhand Serenade,853270,"['neo mellow', 'piano rock', 'pixie', 'pop punk', 'pop rock']",63
+5lKZWd6HiSCLfnDGrq9RAm,Leona Lewis,2786201,"['british soul', 'dance pop', 'europop', 'pop', 'post-teen pop', 'talent show', 'urban contemporary']",73
+3BmGtnKgCSGYIUhmivXKWX,Kelly Clarkson,7654775,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'talent show']",79
+1bj5GrcLom5gZFF5t949Xl,Martin Solveig,1173387,"['dance pop', 'disco house', 'edm', 'electro house', 'filter house', 'house', 'pop dance', 'tropical house', 'vocal house']",73
+6V03b3Y36lolYP2orXn8mV,98º,317799,"['boy band', 'dance pop']",60
+5DK8eK7fjvRsziXzyr3sFA,Moon Taxi,160571,"['indie poptimism', 'modern alternative rock', 'modern rock', 'pop rock', 'stomp and holler']",61
+1vyhD5VmyZ7KMfW5gqLgo5,J Balvin,27786326,"['latin', 'reggaeton', 'reggaeton colombiano', 'trap latino']",96
+6LqNN22kT3074XbTVUrhzX,Kesha,6372349,"['dance pop', 'electropop', 'pop', 'post-teen pop']",82
+1LOB7jTeEV14pHai6EXSzF,Cash Cash,596789,"['dance pop', 'edm', 'electro house', 'electropop', 'electropowerpop', 'indie poptimism', 'pop', 'pop dance', 'pop edm', 'tropical house']",74
+6S2OmqARrzebs0tKUEyXyp,Demi Lovato,19797346,"['dance pop', 'pop', 'post-teen pop']",89
+3cjEqqelV9zb4BYE3qDQ4O,EXO,7796083,"['k-pop', 'k-pop boy group']",77
+0Y5tJX1MQlPlqiwlOH1tJY,Travis Scott,16586266,"['rap', 'slap house']",95
+0LyfQWJT6nXafLPZqxe9Of,Various Artists,1175894,[],0
+57WHJIHrjOE3iAxpihhMnp,Louis Tomlinson,4994296,"['pop', 'post-teen pop']",76
+3nFkdlSjzX9mRTtwJOzDYB,JAY-Z,6219536,"['east coast hip hop', 'hip hop', 'pop rap', 'rap']",88
+6hIZBf6t4Yy8Lrqj7vPYTr,Jake Zyrus,12607,['opm'],31
+25uiPmTg16RbhZWAqwLBy5,Charli XCX,2325341,"['art pop', 'candy pop', 'dance pop', 'electropop', 'escape room', 'hyperpop', 'metropopolis', 'pop', 'post-teen pop', 'uk pop']",80
+73jBynjsVtofjRpdpRAJGk,Dimitri Vegas & Like Mike,3023687,"['belgian dance', 'belgian edm', 'big room', 'edm', 'electro house', 'pop dance', 'progressive electro house', 'tropical house']",79
+1URnnhqYAYcrqrcwql10ft,21 Savage,9627152,"['atl hip hop', 'rap', 'trap']",90
+5he5w2lnU9x7JFhnwcekXX,Skrillex,7812631,"['brostep', 'complextro', 'edm', 'electro']",82
+1vCWHaC5f2uS3yhpwWbIA6,Avicii,19767210,"['dance pop', 'edm', 'pop', 'pop dance']",87
+2XHTklRsNMOOQT56Zm3WS4,Parokya Ni Edgar,2314357,"['opm', 'pinoy reggae', 'pinoy rock']",68
+1KCSPY1glIKqW2TotWuXOR,P!nk,10966832,"['dance pop', 'pop', 'post-teen pop']",88
+2AQjGvtT0pFYfxR3neFcvz,Jordin Sparks,1766669,"['dance pop', 'pop', 'pop rap', 'pop rock', 'post-teen pop', 'r&b', 'urban contemporary']",69
+7FgMLbnZVrEnir95O0YujA,Five For Fighting,643525,"['acoustic pop', 'neo mellow', 'piano rock', 'pop rock']",64
+1YlibpAvhJBbMZMBwN1KGv,The Juans,570991,['opm'],60
+3XEHRbR9NMWfNzQ6TQMS9M,Caleb Santos,31836,"['acoustic opm', 'opm']",52
+7LvDTuFCBv08xm6u1pOMK0,TJ Monterde,653741,"['opm', 'pinoy singer-songwriter']",60
+7tYKF4w9nC0nq9CsPZTHyP,SZA,5326088,"['pop', 'pop rap', 'r&b']",92
+09Xydf4dlkr29dH99DmsvQ,Janine Teñoso,188973,"['opm', 'pinoy singer-songwriter']",51
+1ZTdxfZTeztyAgKUJVLxAI,Rivermaya,1121458,"['opm', 'pinoy rock', 'pop rock']",63
+1PbBg2aYjWLKRk84zJK15x,Echosmith,569842,"['dance pop', 'electropop', 'indie poptimism', 'pop rock']",65
+4kYSro6naA4h99UJvo89HB,Cardi B,16282183,"['dance pop', 'pop', 'pop rap', 'post-teen pop', 'rap']",90
+7bXgB6jMjp9ATFy66eO08Z,Chris Brown,13657944,"['dance pop', 'pop', 'pop rap', 'r&b', 'rap']",92
+20wkVLutqVOYrc0kxFs7rA,Daniel Caesar,2653230,"['canadian contemporary r&b', 'pop', 'r&b']",90
+0eecdvMrqBftK0M1VKhaF4,CNCO,7690395,"['boy band', 'latin', 'latin pop', 'reggaeton']",79
+3AVfmawzu83sp94QW7CEGm,Astrid S,855323,"['alt z', 'dance pop', 'electropop', 'indie cafe pop', 'norwegian pop', 'pop', 'post-teen pop', 'tropical house', 'uk pop']",77
+4YXycRbyyAE0wozTk7QMEq,Matoma,638607,"['dance pop', 'edm', 'electro house', 'electropop', 'norwegian pop', 'pop', 'pop dance', 'pop edm', 'tropical house']",74
+15UsOTVnJzReFVN1VCnxy4,XXXTENTACION,27530823,"['emo rap', 'miami hip hop']",93
+4kI8Ie27vjvonwaB2ePh8T,Portugal. The Man,1225977,"['indie rock', 'modern alternative rock', 'modern rock', 'rock']",72
+7cTXfwpe9peK0UE1bZyIWZ,Pinkfong,112365,"['cartoon', ""children's music"", 'dong-yo']",71
+6cEuCEZu7PAE9ZSzLLc2oQ,R3HAB,2189326,"['dance pop', 'dutch house', 'edm', 'electro house', 'pop', 'pop dance', 'progressive electro house', 'slap house', 'tropical house']",84
+2JyWXPbkqI5ZJa3gwqVa0c,Craig David,676913,"['british soul', 'dance pop', 'pop rap', 'r&b', 'urban contemporary']",72
+6DIS6PRrLS3wbnZsf7vYic,WALK THE MOON,1772189,"['dance pop', 'dance rock', 'indie poptimism', 'modern alternative rock', 'modern rock', 'pop rock', 'rock']",75
+4UXqAaa6dQYAk18Lv7PEgX,Fall Out Boy,8811003,"['emo', 'modern rock', 'pop punk']",84
+2o5jDhtHVPhrJdv3cEQ99Z,Tiësto,5609377,"['big room', 'brostep', 'dance pop', 'dutch edm', 'edm', 'house', 'pop', 'pop dance', 'slap house', 'trance', 'tropical house']",88
+6fOMl44jA4Sp5b9PpYCkzz,NF,5466740,"['hip hop', 'pop rap', 'rap']",88
+3wyVrVrFCkukjdVIdirGVY,Lil Pump,7686893,"['emo rap', 'miami hip hop', 'rap', 'trap', 'vapor trap']",75
+2ZRQcIgzPCVaT9XKhXZIzh,Gryffin,691300,"['dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'pop edm', 'tropical house']",78
+3hyEbRtp617pNCuuQjyOmc,Lost Kings,308773,"['alt z', 'dance pop', 'edm', 'electro house', 'indie poptimism', 'pop', 'pop dance', 'pop edm', 'pop rap', 'tropical house']",67
+2iB7AJhJmkWkkehY9ccB0j,Ex Battalion,2029901,"['opm', 'pinoy hip hop', 'pinoy r&b', 'tagalog rap']",62
+7dGJo4pcD2V6oG8kP0tJRR,Eminem,44431276,"['detroit hip hop', 'hip hop', 'rap']",95
+7eCmccnRwPmRnWPw61x6jM,SHY Martin,231031,"['alt z', 'electropop', 'indie cafe pop', 'pop', 'swedish electropop']",71
+5dHt1vcEm9qb8fCyLcB3HL,A$AP Ferg,2960963,"['hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",80
+1z4g3DjTBBZKhvAroFlhOM,Red Velvet,5319886,"['k-pop', 'k-pop girl group']",77
+5ebPSE9YI5aLeZ1Z2gkqjn,Clara Benin,95339,"['opm', 'pinoy indie', 'pinoy singer-songwriter']",55
+4iHNK0tOyZPYnBU7nGAgpQ,Mariah Carey,6678807,"['dance pop', 'pop', 'urban contemporary']",81
+5fMUXHkw8R8eOP2RNVYEZX,Diplo,2392621,"['bmore', 'dance pop', 'edm', 'moombahton', 'ninja', 'pop', 'pop dance', 'tropical house']",88
+47z7ZrgFoBvVpCnElCE3Zh,Yellow Claw,962632,"['bass trap', 'edm', 'electro house', 'electronic trap', 'pop dance']",70
+7FNnA9vBm6EKceENgCGRMb,Anitta,10552985,"['funk carioca', 'funk pop', 'pagode baiano', 'pop nacional']",84
+3EXdLajEO02ziZ90P90bSW,Lil Xan,2161666,"['emo rap', 'underground hip hop', 'vapor trap']",68
+4DdkRBBYG6Yk9Ka8tdJ9BW,Offset,2045030,"['atl hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",85
+4GBFKKuwmZUnAJt6nBal7A,Kamikazee,811701,"['opm', 'pinoy pop punk', 'pinoy rock']",60
+1EHAbA1GMYOfkh9ds9eNfS,Jose Mari Chan,267559,"['classic opm', 'opm', 'soft rock']",55
+2G7VQ1kVhVfNagytlousgm,Al James,392653,"['opm', 'pinoy alternative rap', 'pinoy hip hop', 'pinoy r&b', 'pinoy trap', 'tagalog rap']",57
+4sj6D0zlMOl25nprDJBiU9,Andy Williams,356210,"['adult standards', 'brill building pop', 'easy listening', 'lounge']",63
+5lpH0xAS4fVfLkACg9DAuM,Wham!,1566108,"['disco', 'europop', 'new romantic', 'new wave', 'new wave pop', 'soft rock']",72
+1GlMjIezcLwV3OFlX0uXOv,Lea Salonga,139831,"['hollywood', 'movie tunes', 'show tunes', 'tagalog worship']",65
+4DAcJXcjX0zlQAZAPAx4Zb,Ben&Ben,3355856,['opm'],74
+0LyfQWJT6nXafLPZqxe9Of,Various Artists,1175894,[],0
+1zNqDE7qDGCsyzJwohVaoX,Anne-Marie,7701745,"['dance pop', 'pop', 'pop dance', 'post-teen pop', 'tropical house', 'uk pop']",84
+3Y7RZ31TRPVadSFVy1o8os,H.E.R.,3835515,"['alternative r&b', 'dance pop', 'pop', 'r&b']",84
+26dSoYclwsYLMAKD3tpOr4,Britney Spears,9061699,"['dance pop', 'pop', 'post-teen pop']",86
+0GnuCXvnvVtX5DShryuyp9,Aiza Seguerra,422365,['opm'],55
+0RHiqaoRCsFLPeEuj3OQz4,Gary Valenciano,682087,"['classic opm', 'opm', 'papuri', 'pinoy praise']",60
+2H4bbbOohoe9zhqEsiRi7j,ABS-CBN Music All Star,4994,['opm'],35
+4cPHsZM98sKzmV26wlwD2W,Brenda Lee,212094,"['adult standards', 'brill building pop', 'easy listening', 'lounge', 'rockabilly', 'vocal jazz']",58
+2iE18Oxc8YSumAU232n4rW,The Jackson 5,1126763,"['adult standards', 'motown', 'soul']",72
+38EmEgXkgK51MT2tPY0EoC,Bobby Helms,20406,['adult standards'],47
+6sFIWsNpZYqfjUpaCgueju,Carly Rae Jepsen,4588513,"['canadian pop', 'dance pop', 'electropop', 'indie poptimism', 'pop', 'post-teen pop']",77
+6ZjFtWeHP9XN7FeKSUe80S,Bing Crosby,350853,"['adult standards', 'easy listening', 'lounge']",59
+11W91yRxIo7Mw75LClgrGx,Lyca Gairanod,20721,[],19
+2aiQfmxcWSx7RrqSVbhiFX,Maria Aragon,861,[],14
+7vjoSmk5jVvRXNiKIDMox1,Alisah Bonaobra,1569,[],28
+0YaTdozvKSQ2UkOTTONmSJ,Rachelle Ann Go,373035,['opm'],53
+6jtan6NPL80JFme8IkFiy7,Janice Javier,2216,[],27
+7v4imS0moSyGdXyLgVTIV7,Nat King Cole,1581079,"['adult standards', 'lounge', 'vocal jazz']",71
+1AwO9pWEBSBoWdEZu28XDC,Eartha Kitt,123949,"['adult standards', 'lounge', 'torch song', 'vocal jazz']",52
+5V0MlUE1Bft0mbLlND7FJz,Ella Fitzgerald,1956086,"['adult standards', 'jazz blues', 'swing', 'vocal jazz']",74
+4yiQZ8tQPux8cPriYMWUFP,Gwen Stefani,4669789,"['dance pop', 'hip pop', 'pop', 'post-teen pop', 'urban contemporary']",79
+5EUahD2aecNM2phblhyVFi,Bamboo,6208,[],30
+26AHtbjWKiwYzsoGoUZq53,Pentatonix,3035789,['a cappella'],72
+0SG7a26LiFGt8E0olaIOpx,Acapellago,2545,[],13
+7AKHnZVqwXYuUwWJ8UGL5q,Girls' Generation-TTS,496142,"['k-pop', 'k-pop girl group']",45
+0SCbttzoZTnLFebDYmAWCm,Glee Cast,1380485,"['glee club', 'hollywood', 'post-teen pop']",80
+65kpH75MFCBJhLy7qvVl6A,Aegis,158469,"['classic opm', 'opm']",53
+3wNylAjJX1PiCpMKx8Lrfp,Regine Velasquez,1102030,"['classic opm', 'dance pop', 'opm']",63
+35S20clEkkSNUo23ViaslZ,Band Aid,19868,['musical advocacy'],42
+4w9rFB4pUAUO3OloDQ6wn7,Jamie Rivera,104371,"['classic opm', 'opm', 'papuri', 'pinoy praise']",52
+1Mxqyy3pSjf8kZZL4QVxS0,Frank Sinatra,4761110,"['adult standards', 'easy listening', 'lounge']",81
+2jnIB6XdLvnJUeNTy5A0J2,Why Don't We,2763087,"['boy band', 'dance pop', 'pop', 'post-teen pop', 'teen pop']",78
+0u4G1K1CSzcp5PZ6G6FIGu,Darren Espanto,387090,['opm'],51
+3qZNpgS5OAdktfruSjjLeY,Benni Sparks,458,[],21
+6Paz0vXJJ9bCPf0fEm3qzg,Dagny,111863,"['electropop', 'norwegian indie', 'norwegian pop', 'tropical house']",66
+0XNvr6bnNywV946ZKaJtr0,Joakim Lundell,128781,['swedish pop'],52
+0lslA51eKXwTUY0TSX9Emy,Marion Aunor,30127,['opm'],47
+5Xcbv83o11Ez2XPHa1n8Pf,AmPm,36605,['japanese dance pop'],52
+62Jfwxon19ZOT9eSL6bvtY,Sweater Beats,42086,"['gauze pop', 'vapor twitch']",49
+2TX325jFbZFpe2OGZNo4Lx,Markus,2445,['pinoy singer-songwriter'],37
+3koiLjNrgRTNbOwViDipeA,Marvin Gaye,4020693,"['classic soul', 'funk', 'indie r&b', 'motown', 'northern soul', 'quiet storm', 'soul']",79
+3fMbdgg4jU18AjLCKBhRSm,Michael Jackson,18479257,"['pop', 'r&b', 'soul']",86
+5BcAKTbp20cv7tC5VqPFoC,Macklemore & Ryan Lewis,2563077,"['dance pop', 'modern rock', 'pop', 'pop rap', 'seattle hip hop']",79
+2JLqTvFXmC87BksiCsBezV,Matt Terry,121677,['talent show'],49
+1EUmQM6xgUQLUkJVcvSdey,Orange & Lemons,507967,"['opm', 'pinoy indie', 'pinoy rock', 'pop rock']",57
+3xbpJdoJDLAfYn3ZeLlukg,Bosx1ne,126412,"['pinoy hip hop', 'pinoy r&b', 'tagalog rap']",55
+2U5mF0PZqGu6glnz55yY0y,John Roa,844970,['opm'],67
+6U1dBXJhC8gXFjamvFTmHg,Zac Efron,714796,"['dance pop', 'hollywood', 'pop', 'post-teen pop', 'show tunes']",76
+0touaoSr4QOLYxBJ9lmGgK,Karencitta,135132,"['pinoy edm', 'pinoy r&b', 'pinoy trap', 'vispop']",46
+7HV2RI2qNug4EcQqLbCAKS,Keala Settle,138859,"['broadway', 'hollywood', 'show tunes']",73
+7t0rwkOPGlDPEhaOcVtOt9,The Cranberries,2452863,"['irish rock', 'pop rock']",77
+17Do37U0HEbxu1tOrKH8dL,Nadine Lustre,196776,"['opm', 'pinoy r&b']",52
+6ogIjp0fsbUxlqy9q2rvrT,Shanti Dope,1036517,"['opm', 'pinoy hip hop', 'pinoy r&b', 'pinoy trap', 'tagalog rap']",58
+4WN5naL3ofxrVBgFpguzKo,Rudimental,1271754,"['dance pop', 'edm', 'house', 'liquid funk', 'pop', 'pop dance', 'tropical house', 'uk dance', 'uk funky']",78
+3mPc8WGusz2XF3Tvs3AKCR,Carlie Hanson,281075,"['alt z', 'dance pop', 'electropop', 'indie cafe pop', 'indie electropop', 'indie poptimism', 'pop', 'post-teen pop', 'social media pop']",59
+4GvEc3ANtPPjt1ZJllr5Zl,Bazzi,4255336,"['dance pop', 'electropop', 'pop', 'post-teen pop']",81
+0LyOADBjj28cbvJWTXUEGA,Loren Allred,85345,"['deep talent show', 'hollywood', 'movie tunes']",66
+2cQr2KbzdRtIFlfbHGnNsL,Ziv Zaifman,8989,['show tunes'],63
+5F1aoppMtU3OMiltO8ymJ2,Hugh Jackman,555232,"['hollywood', 'show tunes']",75
+4k9wp4ipHdA1bu1T4x1ZTG,IV Of Spades,1549031,"['opm', 'pinoy indie', 'pinoy trap']",63
+2LAqcqAQ8KPTsl1HBgBrqM,Michelle Williams,8288,['hollywood'],66
+6Y20PijIkUoCtuvtkz37dO,Austyn Johnson,3623,['show tunes'],54
+0vqJkZ0RpLZixt3lTmD8vP,Whethan,221870,"['edm', 'electropop', 'indie poptimism', 'pop', 'tropical house', 'vapor soul', 'vapor twitch']",71
+6k0IBR0lU42s2GYpNX7kA9,Brian McKnight,1042018,"['dance pop', 'neo soul', 'new jack swing', 'quiet storm', 'r&b', 'urban contemporary']",66
+3NRFinRTEqUCfaTTZmk8ek,Savage Garden,852680,"['australian pop', 'boy band', 'dance pop', 'europop', 'pop rock']",70
+4am1I89OWXUzFh4ctRLkdd,Elliott Yamin,95613,[],53
+2NzWRNaaLByHyI3wpuec8P,Jim Brickman,81641,"['classify', 'new age', 'new age piano']",61
+4TEJudQY2pXxVHPE3gD2EU,BlocBoy JB,1283906,"['memphis hip hop', 'rap', 'southern hip hop', 'tennessee hip hop', 'trap', 'vapor trap']",69
+5IcR3N7QB1j6KBL8eImZ8m,ScHoolboy Q,3665705,"['gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",79
+28ExwzUQsvgJooOI0X1mr3,Jay Rock,1050213,"['conscious hip hop', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap', 'underground hip hop']",75
+4qFxP3qN9GsnZDOkAE6x2m,December Avenue,3684296,"['opm', 'pinoy pop punk']",68
+5Rl15oVamLq7FbSb0NNBNy,5 Seconds of Summer,7493736,"['boy band', 'dance pop', 'electropop', 'pop', 'post-teen pop']",85
+6ueGR6SWhUJfvEhqkvMsVs,Janelle Monáe,1088891,"['afrofuturism', 'alternative r&b', 'atl hip hop', 'dance pop', 'electropop', 'escape room', 'neo soul', 'pop', 'r&b']",72
+23zg3TcAtWQy7J6upgbUnj,Usher,8707497,"['atl hip hop', 'dance pop', 'pop', 'r&b', 'south carolina hip hop', 'urban contemporary']",85
+0b1sIQumIAsNbqAoIClSpy,j-hope,6162638,"['k-pop', 'k-rap']",69
+38CvLGTsjtoloDgv3OKQp8,Robinson,76099,"['alt z', 'australian pop', 'nz pop']",60
+3Hvxz2oZPYuo61ChHKcqQI,Autotelic,170802,"['opm', 'pinoy indie', 'pinoy rock']",47
+5RR0MLwcjc87wjSw2JYdwx,MOMOLAND,2423033,"['k-pop', 'k-pop girl group']",64
+6beUvFUlKliUYJdLOXNj9C,King Princess,1133627,"['alt z', 'dance pop', 'electropop', 'indie pop', 'indie poptimism', 'nyc pop', 'pop', 'post-teen pop']",70
+3Isy6kedDrgPYoTS1dazA9,Sean Paul,3456431,"['dance pop', 'dancehall', 'pop', 'pop rap']",85
+4mrrcDjpjUq27YEGwlisgs,Gracenote,33415,"['opm', 'pinoy indie', 'pinoy rock']",48
+1tqhsYv8yBBdwANFNzHtcr,Lil Dicky,1807406,"['comedy rap', 'pop rap', 'rap']",70
+3EOEK57CV77D4ovYVcmiyt,Dennis Lloyd,541980,['israeli pop'],74
+33W1pnW9zScZtYTnAoWnOT,Mr. Probz,309271,"['dutch hip hop', 'tropical house']",72
+5wPoxI5si3eJsYYwyXV4Wi,N.E.R.D,664981,"['hip hop', 'virginia hip hop']",64
+1pPmIToKXyGdsCF6LmqLmI,Rich The Kid,2574207,"['atl hip hop', 'hip hop', 'melodic rap', 'plugg', 'pop rap', 'rap', 'southern hip hop', 'trap']",78
+5jAMCwdNHWr7JThxtMuEyy,NOTD,183840,"['alt z', 'dance pop', 'edm', 'electro house', 'electropop', 'pop', 'pop dance', 'pop edm', 'post-teen pop', 'tropical house']",75
+3JXpwnHbLvXxY99EuXqFPX,Poo Bear,35010,['pop r&b'],59
+7n2Ycct7Beij7Dj7meI4X0,TWICE,9008913,"['k-pop', 'k-pop girl group']",84
+3CjlHNtplJyTf9npxaPl5w,CHVRCHES,1216140,"['dance pop', 'electropop', 'indie pop', 'indie poptimism', 'metropopolis', 'neo-synthpop', 'shimmer pop']",72
+2KU7pJgPoJC3uwJRZPYQ8G,BATE,1294,['malaysian indie'],29
+25tMQOrIU4LlUo6Sv8v5SE,Gavin James,591803,"['indie cafe pop', 'irish pop', 'neo mellow', 'pop', 'pop rock', 'viral pop']",71
+6l3HvQ5sa6mXTsMTB19rO5,J. Cole,13457587,"['conscious hip hop', 'north carolina hip hop', 'rap']",96
+5iNrZmtVMtYev5M9yoWpEq,Seeb,215178,"['dance pop', 'deep house', 'edm', 'electro house', 'norwegian pop', 'pop', 'pop dance', 'pop edm', 'swedish pop', 'tropical house']",76
+63gbXCha1jpkrJJ9K5gGpR,ELI,27043,"['german pop', 'indie cafe pop']",55
+3zDRCqOhJXJfS2YWOEwGMC,Christopher,208563,['danish pop'],68
+0hCNtLu0JehylgoiP8L4Gh,Nicki Minaj,21338495,"['dance pop', 'hip pop', 'pop', 'pop rap', 'post-teen pop', 'queens hip hop']",93
+6qqNVTkY8uBg9cP3Jd7DAH,Billie Eilish,43379823,"['electropop', 'pop']",95
+1frSJ3BwjRHE9jgMRQV5wC,Zookeepers,7565,['bass trap'],56
+7aD2Ni3fUu66gklUFlvJi5,Kyle Juliano,91344,['opm'],50
+2ZuweXv0TkfsidZOLZZoM2,HEDEGAARD,60925,"['danish electronic', 'danish pop', 'scandipop']",62
+4ScCswdRlyA23odg9thgIO,Jess Glynne,2502387,"['dance pop', 'pop', 'pop dance', 'post-teen pop', 'tropical house', 'uk pop']",80
+39rKElzF7q6K4O2flycSEc,Chlara,37973,"['opm', 'viral pop']",58
+2gBjLmx6zQnFGQJCAQpRgw,Nelly,1788412,"['dance pop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'st louis rap', 'urban contemporary']",81
+5vBSrE1xujD2FXYRarbAXc,Years & Years,1641920,"['dance pop', 'electropop', 'gauze pop', 'pop', 'post-teen pop', 'tropical house']",76
+2DaxqgrOhkeH0fpeiQq2f4,Oasis,6244186,"['beatlesque', 'britpop', 'madchester', 'permanent wave', 'rock']",82
+2RdwBSPQiwcmiDo9kixcl8,Pharrell Williams,3546468,['pop rap'],83
+3mIj9lX2MWuHmhNCA7LSCW,The 1975,4915849,"['modern alternative rock', 'modern rock', 'nu gaze', 'pop', 'rock']",81
+4MCBfE4596Uoi2O4DtmEMz,Juice WRLD,17510363,"['chicago rap', 'melodic rap']",97
+5K4W6rqBFWDnAN6FQUkS6x,Kanye West,13911312,"['chicago rap', 'rap']",93
+5cYJYBMg1n71v7cvthr1SO,The Itchyworms,732751,"['opm', 'pinoy rock', 'pop rock']",57
+5IH6FPUwQTxPSXurCrcIov,Alec Benjamin,2660374,"['alt z', 'electropop', 'pop']",81
+7uMh23xWiuR7zsNkuNcm2G,MNEK,247122,"['tropical house', 'uk contemporary r&b', 'uk dance']",81
+1ySGjTzzgiL3khDY9awOGU,Andrea Babierra,1437,['opm'],23
+1AhjOkOLkbHUfcHDSErXQs,88rising,664767,"['asian american hip hop', 'chill r&b', 'pop']",72
+5LHRHt1k9lMyONurDHEdrp,Tyga,6232796,"['dance pop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",87
+4VMYDCV2IEDYJArk749S6m,Daddy Yankee,23144983,"['latin', 'latin hip hop', 'reggaeton', 'trap latino']",92
+20JZFwl6HVl6yg8a4H3ZqK,Panic! At The Disco,10696732,"['baroque pop', 'emo', 'modern rock']",85
+4fpTMHe34LC5t3h5ztK8qu,The Carters,1109188,"['dance pop', 'pop', 'pop rap', 'r&b', 'urban contemporary']",63
+7HkdQ0gt53LP4zmHsL0nap,Ella Mai,3585715,"['dance pop', 'pop', 'pop r&b', 'pop rap', 'post-teen pop', 'r&b', 'uk contemporary r&b', 'urban contemporary']",76
+3gIRvgZssIb9aiirIg0nI3,Jeremy Zucker,1608583,"['electropop', 'pop', 'post-teen pop']",82
+7CQwac16i1W5ej8YpuL3dv,Boyce Avenue,2730195,"['neo mellow', 'pop', 'pop rock', 'viral pop']",77
+40JlNF1w2OiSOyj1nC4y0I,Joseph Vincent,258976,['viral pop'],70
+1uuV1avDy9Eup5gYHXVG05,Amber Leigh Irish,14574,['viral pop'],57
+7HXBbxW6YwU8lvgBew2p2A,Matt Johnson,29505,"['neo mellow', 'viral pop']",61
+5JMLG56F1X5mFmWNmS0iAp,Chelsea Cutler,443725,"['alt z', 'electropop', 'indie cafe pop', 'indie pop', 'indie poptimism', 'pop', 'post-teen pop', 'tropical house']",80
+6t1gpxYbY8OlLA7D2RiikQ,Loud Luxury,435781,"['dance pop', 'edm', 'electro house', 'house', 'pop', 'pop dance', 'pop edm', 'tropical house']",77
+30mZI7Hw2MhoarTVYxfyZM,Unique Salonga,157116,"['opm', 'pinoy indie']",55
+5CiGnKThu5ctn9pBxv7DGa,benny blanco,778942,"['electropop', 'pop', 'pop dance', 'pop rap']",82
+5qRSs6mvI17zrkJpOHkCoM,iKON,3008154,"['k-pop', 'k-pop boy group']",71
+1klFdLh3pak3eOtJP0styY,Triple H,497968,['k-pop'],47
+4RUeoFWpDZ3IxGR7LYPoYN,Angelina Cruz,36238,['acoustic opm'],34
+7tKpXx21KVUOR6vvDs6xtg,I Belong to the Zoo,1399944,"['opm', 'pinoy indie', 'pinoy rock']",62
+7gZfnEnfiaHzxARJ2LeXrf,6ix9ine,6452802,['emo rap'],80
+3v6Ji4uoWtKRkhuDUaxi9n,Dynoro,223611,"['edm', 'pop dance', 'tropical house']",75
+7h4j9YTJJuAHzLCc3KCvYu,Kina Grannis,443619,"['acoustic pop', 'indie cafe pop', 'neo mellow', 'viral pop']",72
+3QSQFmccmX81fWCUSPTS7y,Dean Lewis,1619529,"['australian pop', 'indie cafe pop', 'pop', 'pop rock', 'post-teen pop']",80
+5Y8eJDj37KhaEeqbVO7Ag1,PRETTYMUCH,1062004,"['alt z', 'boy band', 'dance pop', 'pop', 'post-teen pop', 'social media pop']",70
+6MXu7TWZnmykwkXiRJeUMh,Imago,574104,"['opm', 'pinoy indie', 'pinoy rock', 'pop rock']",52
+3pTaNQJ7TAU4yL7KEZp5sF,Nyoy Volante,62461,['opm'],42
+0Vw76uk7P8yVtTClWyOhac,HONNE,1174923,"['chill r&b', 'pop', 'uk pop']",72
+5xuNBZoM7z1Vv8IQ6uM0p6,JoJo,1832970,"['dance pop', 'hip pop', 'pop', 'pop r&b', 'pop rap', 'post-teen pop', 'r&b', 'urban contemporary']",68
+4LcUpNlXFEleaLlelmkv2R,Kris Kross Amsterdam,143633,"['dutch house', 'dutch pop']",71
+6auWB5YAlcKaHyrbTH66nd,No Rome,160641,['indietronica'],62
+65XA3lk0aG9XejO8y37jjD,the bird and the bee,150569,"['indie pop', 'la indie']",51
+1foL9hLC9M6U94dINtOYfb,Girls' Generation-Oh!GG,151324,"['k-pop', 'k-pop girl group']",48
+2X97ZAqRKRMYFIDqtvGgGc,Silk City,68563,"['dance pop', 'edm', 'house', 'pop dance', 'tropical house']",68
+4AVFqumd2ogHFlRbKIjp1t,Alesso,3617923,"['dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'progressive electro house', 'tropical house']",81
+2NdeV5rLm47xAvogXrYhJX,Ciara,5025763,"['dance pop', 'hip pop', 'pop', 'post-teen pop', 'r&b', 'urban contemporary']",76
+30DIeQNV9s1HEXyuCpGF4l,Khel Pangilinan,399577,['opm'],57
+3MZsBdqDrRTJihTHQrO6Dq,Joji,4489640,"['alternative r&b', 'viral pop']",86
+13y7CgLHjMVRMDqxdx0Xdo,Gucci Mane,3833706,"['atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']",84
+0n4a5imdLBN24fIrBWoqrv,Because,339261,"['opm', 'pinoy hip hop', 'pinoy r&b', 'pinoy trap', 'tagalog rap']",60
+0p4nmQO2msCgU4IF37Wi3j,Avril Lavigne,7246648,"['canadian pop', 'candy pop', 'dance pop', 'pop', 'post-teen pop']",81
+2kCcBybjl3SAtIcwdWpUe3,Lil Peep,6992927,"['emo rap', 'lgbtq+ hip hop']",89
+0a4r2EnsevvHCukoJ1xFwJ,juan karlos,635995,"['opm', 'pinoy indie', 'tagalog rap']",56
+55Aa2cqylxrFIXC767Z865,Lil Wayne,10419859,"['hip hop', 'new orleans rap', 'pop rap', 'rap', 'trap']",92
+5HIZU0JzM0AgfItVOm4E08,This Band,1379566,['opm'],58
+5zctI4wO9XSKS8XwcnqEHk,Lil Mosey,3626870,"['melodic rap', 'rap', 'rap conscient', 'trap', 'vapor trap']",83
+2TwRMSibtKhC7ZGypSl1el,Drei Rana,29822,['acoustic opm'],31
+6sEgMZsruguWlnwVdiz4IX,Midnight Meetings,16614,['pinoy indie'],33
+3bsQY9pFWVzUMxlSgGQuBn,Patch Quiwa,214705,['opm'],48
+4q3ewBCX7sLwd24euuV69X,Bad Bunny,33273019,"['latin', 'reggaeton', 'trap latino']",99
+46SHBwWsqBkxI7EeeBEQG7,Kodak Black,7020660,"['florida rap', 'hip hop', 'melodic rap', 'miami hip hop', 'rap', 'southern hip hop', 'trap']",85
+4npEfmQ6YuiwW1GpUmaq3F,Ava Max,3477245,"['dance pop', 'pop']",87
+5Z1CCuBsyhEHngq3U5IraY,Westlife,2186278,"['boy band', 'dance pop', 'europop']",75
+2auC28zjQyVTsiZKNgPRGs,RM,5595079,['k-rap'],73
+2cWZOOzeOm4WmBJRnD5R7I,Normani,1202091,"['dance pop', 'pop', 'post-teen pop', 'r&b']",75
+1dfeR4HaWDbWqFHLkxsg1d,Queen,34220728,"['classic rock', 'glam rock', 'rock']",91
+5r1tUTxVSgvBHnoDuDODPH,IZ*ONE,944408,"['k-pop', 'k-pop girl group']",72
+5CY0QKsbUBpQJIE2yycsYi,Lil Eddie,17519,[],49
+4gOc8TsQed9eqnqJct2c5v,K/DA,1137258,['k-pop girl group'],74
+3HqSLMAZ3g3d5poNaI7GOU,IU,4145241,['k-pop'],80
+250b0Wlc5Vk0CoUsaCY84M,JENNIE,751285,['k-pop'],65
+042sjIstxjQz7xhDkEayIE,Lavaado,9793,[],31
+20sxb77xiYeusSH8cVdatc,Meek Mill,5052253,"['hip hop', 'philly rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",83
+2JI8ViuZDBybY6Xd9ujUrb,Reese Lansangan,118553,"['opm', 'pinoy indie']",54
+3hv9jJF3adDNsBSIQDqcjp,Mark Ronson,907657,"['dance pop', 'pop']",81
+3KovZIDNYgQY8chiNZo2ZF,Just Hush,203417,"['opm', 'pinoy r&b', 'pinoy trap']",55
+4STHEaNw4mPZ2tzheohgXB,Paul McCartney,3509335,"['album rock', 'art rock', 'beatlesque', 'classic rock', 'folk rock', 'rock']",76
+49e4v89VmlDcFCMyDv9wQ9,Dean Martin,1096721,"['adult standards', 'easy listening', 'lounge', 'vocal jazz']",72
+0qSX3s5pJnAlSsgsCne8Cz,Brett Eldredge,1274952,"['contemporary country', 'country', 'country road', 'modern country rock']",68
+4x1nvY2FN8jxqAFA0DA02H,John Lennon,4155640,"['album rock', 'art rock', 'beatlesque', 'classic rock', 'folk rock', 'mellow gold', 'rock']",75
+7CyeXFnOrfC1N6z4naIpgo,The Ronettes,171747,"['adult standards', 'brill building pop', 'classic girl group', 'motown', 'soul']",62
+5v8jlSmAQfrkTjAlpUfWtu,Perry Como,321137,"['adult standards', 'brill building pop', 'easy listening', 'lounge', 'vocal jazz']",61
+0MHgLfmQdutffmvWe5XBTN,Burl Ives,57002,"['adult standards', 'american folk revival', 'lounge']",47
+77tT1kLj6mCWtFNqiOmP9H,Daryl Hall & John Oates,1487408,"['album rock', 'classic rock', 'folk rock', 'mellow gold', 'rock', 'soft rock', 'yacht rock']",77
+1x9aBTOQP8VjLBgKVm81K6,Nef Medina,758,['opm'],28
+7K78lVZ8XzkjfRSI7570FF,José Feliciano,229265,"['latin pop', 'puerto rican pop']",65
+2lolQgalUvZDfp5vvVtTYV,Tony Bennett,635807,"['adult standards', 'easy listening', 'lounge', 'vocal jazz']",66
+4ivXbUYuZslF08Ca5EuJGc,Kithara,9194,['opm'],28
+5KEG7G8LDYlHgFDqZyEEs2,Chris Rea,588207,"['blues rock', 'classic rock', 'classic uk pop', 'mellow gold', 'soft rock', 'sophisti-pop']",62
+43ZHCT0cAZBISjO8DG9PnE,Elvis Presley,5439206,"['adult standards', 'rock-and-roll', 'rockabilly']",82
+3rXT3DX9OeNMfH8Thivxrk,Tres Hermanas,5132,['acoustic opm'],38
+3eqjTLE0HfPfh78zjh6TqT,Bruce Springsteen,4033031,"['classic rock', 'heartland rock', 'mellow gold', 'permanent wave', 'rock', 'singer-songwriter']",81
+4RVnAU35WRWra6OZ3CbbMA,Kylie Minogue,1276741,"['australian dance', 'australian pop', 'dance pop', 'electropop', 'eurodance', 'europop', 'new wave pop', 'pop']",75
+4QvYFzlTFZFg2904xx8gOu,Ariel Rivera,252614,"['classic opm', 'opm', 'soft rock']",54
+1l7ZsJRRS8wlW3WfJfPfNS,Christina Aguilera,6117141,"['dance pop', 'pop', 'pop rap', 'post-teen pop']",83
+7or90S16MNx8VogdeOqlKq,Cocoy Claravall,2436,['pinoy singer-songwriter'],23
+7guDJrEfX3qb6FEbdPA5qi,Stevie Wonder,4985774,"['adult standards', 'funk', 'indie r&b', 'motown', 'quiet storm', 'soul']",81
+0hItVPjwJLVZrFqOyIsxPf,Judy Garland,175227,"['adult standards', 'hollywood', 'lounge', 'torch song', 'vocal jazz']",54
+0wi4yTYlGtEnbGo4ltZTib,Shakin' Stevens,96516,"['classic uk pop', 'new wave pop', 'rock-and-roll', 'rockabilly', 'soft rock']",55
+293zczrfYafIItmnmM3coR,Chuck Berry,1389746,"['adult standards', 'blues rock', 'classic rock', 'folk rock', 'rock', 'rock-and-roll', 'rockabilly', 'soul']",70
+0WleeEe3UurwlNbDGhb5Yz,ALLMO$T,696391,"['opm', 'pinoy hip hop', 'pinoy r&b', 'tagalog rap']",61
+72nLe76yBFSlP6VBzME358,SHAUN,244718,['k-pop'],68
+3KwmxIhSe9UTSEF37kwngR,SHAED,132671,"['electropop', 'pop']",70
+0iqkVK6sTXi7DZWWOeKy8Q,PDL,110697,"['opm', 'pinoy hip hop', 'pinoy r&b']",57
+5KnoVkIUGmK0PiDKMjz2LM,Feder,171299,"['francoton', 'new french touch', 'tropical house']",65
+7F9FobwEoTXZRdi1MAUFjX,Alex Gonzaga,52145,['brazilian gospel'],34
+6ioOEWNNGK40H8xrGj6XPW,XYLØ,250905,"['alt z', 'electropop', 'indie electropop', 'indie poptimism', 'la pop', 'pop', 'vapor soul']",60
+01pKrlgPJhm5dB4lneYAqS,Sigma,271304,"['dance pop', 'drum and bass', 'edm', 'house', 'liquid funk', 'pop dance', 'tropical house', 'uk dance']",69
+1z7b1Pr1rSlvWRzsW3HOrS,Russ,3999979,"['hawaiian hip hop', 'pop rap', 'rap']",83
+4utLUGcTvOJFr6aqIJtYWV,Skylar Grey,457800,"['piano rock', 'viral pop']",74
+31W5EY0aAly4Qieq6OFu6I,A Boogie Wit da Hoodie,5705248,"['melodic rap', 'pop rap', 'rap', 'trap']",87
+3hteYQFiMFbJY7wS0xDymP,Gesaffelstein,386940,"['dark clubbing', 'destroy techno', 'electro house']",69
+0cGUm45nv7Z6M6qdXYQGTX,Kehlani,4661241,"['dance pop', 'pop', 'pop rap', 'post-teen pop', 'r&b', 'urban contemporary']",83
+4GNC7GD6oZMSxPGyXy4MNB,Lewis Capaldi,7822849,"['pop', 'uk pop']",87
+4sTQVOfp9vEMCemLw50sbu,Galantis,3088668,"['dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'tropical house']",80
+2uhjpR62cyl0U8HD38yFQ8,JM De Guzman,108874,['opm'],46
+2KC9Qb60EaY0kW4eH68vr3,ITZY,2017445,['k-pop girl group'],80
+5e4Dhzv426EvQe3aDb64jL,Shania Twain,2234063,"['canadian country', 'canadian pop', 'country', 'country dawn', 'dance pop']",75
+6Ad91Jof8Niiw0lGLLi3NW,YUNGBLUD,1733119,"['british indie rock', 'modern rock', 'pop', 'rock']",81
+7bT6URJrhJleZUfkrysELD,Armi Millare,9707,['pinoy singer-songwriter'],39
+7aerdWadzubpu06Oxysg6R,Paolo Sandejas,4066,"['opm', 'pinoy indie']",33
+43CiK1548VVp2DT95joswS,Billy Crawford,13638,"['opm', 'pinoy r&b']",41
+1MIVXf74SZHmTIp4V4paH4,Mabel,1301306,"['dance pop', 'edm', 'pop', 'pop dance', 'post-teen pop', 'tropical house', 'uk pop']",79
+7gOdHgIoIKoe4i9Tta6qdD,Jonas Brothers,5245650,"['boy band', 'dance pop', 'pop', 'pop rock', 'post-teen pop']",81
+0ghlgldX5Dd6720Q3qFyQB,TOMORROW X TOGETHER,3529407,"['k-pop', 'k-pop boy group']",78
+0haZhu4fFKt0Ag94kZDiz2,Sofía Reyes,1926409,"['dance pop', 'latin', 'latin pop', 'mexican pop', 'pop']",73
+5qa31A9HySw3T7MKWI9bGg,FLETCHER,442488,"['alt z', 'dance pop', 'electropop', 'indie cafe pop', 'indie poptimism', 'pop', 'post-teen pop', 'social media pop']",74
+6WY7D3jk8zTrHtmkqqo5GI,Maren Morris,578589,"['contemporary country', 'country', 'pop', 'texas country']",82
+1UvsiRB2EarPibq6XRl9Sv,Pricetagg,56048,"['pinoy hip hop', 'pinoy trap', 'tagalog rap']",48
+7pbDxGE6nQSZVfiFdq9lOL,Rex Orange County,3013587,"['bedroom pop', 'pop']",82
+7jVv8c5Fj3E9VhNjxT4snq,Lil Nas X,4799730,"['country rap', 'lgbtq+ hip hop', 'pop rap', 'queer country']",91
+57RB9qdhVRreynzLJ5tPkD,Avery,95,[],0
+3ZZzT0naD25RhY2uZvIKkJ,EVERGLOW,905879,"['k-pop', 'k-pop girl group']",69
+3nlHsNqwCSvT988ZfSW1Yh,Ronan Keating,705841,"['dance pop', 'europop', 'soft rock']",70
+4HPuFCMUiNcV4f3ew0flbZ,Alisson Shore,136583,"['opm', 'pinoy indie', 'pinoy r&b']",57
+0jarApAsbmiCkYhz0590mE,Freestyle,131688,['opm'],59
+6USv9qhCn6zfxlBQIYJ9qs,Dominic Fike,521945,"['alternative pop rock', 'pop']",79
+70ljCILl0aVXitf3K39YvT,Join The Club,225417,"['opm', 'pinoy indie', 'pinoy rock']",52
+56oDRnqbIiwx4mymNEv7dS,Lizzo,3833671,"['dance pop', 'escape room', 'minnesota hip hop', 'pop', 'pop rap', 'post-teen pop', 'trap queen']",79
+6vCnF48qqPHgVMBEvcbgkU,CLR,77547,"['pinoy alternative rap', 'pinoy hip hop', 'pinoy r&b', 'pinoy trap', 'tagalog rap']",54
+6gcteR920pLEynlHzjSRYd,Kiyo,200508,"['opm', 'pinoy hip hop', 'tagalog rap']",61
+5DuzBeOgFwViFcv00Q5PFb,WINNER,2073611,"['k-pop', 'k-pop boy group']",63
+2UeuiDT17tm6ljs9D4bSMX,Agsunta,396561,"['opm', 'pinoy rock']",56
+4V8LLVI7PbaPR0K2TGSxFF,"Tyler, The Creator",6257123,"['hip hop', 'rap']",86
+24CgJHK6T7C5OmUbiLLMjJ,Luh Kel,702824,"['pop r&b', 'st louis rap']",70
+0C8kbAJOGo7CHx8jDTyTfR,Mena Massoud,15772,['show tunes'],56
+2Zi3RrdQqk63Xj0914STkS,Naomi Scott,289931,['vapor pop'],68
+5sy77gt4bfsLcSQ8GIe4ZZ,Alan Menken,86888,"['broadway', 'disney', 'hollywood', 'movie tunes', 'show tunes']",65
+50co4Is1HCEo8bhOyUWKpn,Young Thug,6193269,"['atl hip hop', 'atl trap', 'gangster rap', 'melodic rap', 'pop rap', 'rap', 'trap']",93
+7cVZApDoQZpS447nHTsNqu,LeeHi,875724,"['k-pop', 'korean pop']",69
+41qil2VaGbD194gaEcmmyx,Will Smith,765238,"['hip hop', 'pop rap']",73
+7zYj9S9SdIunYCfSm7vzAR,SOMI,496118,['k-pop'],61
+4rTv3Ejc7hKMtmoBOK1B4T,Ali Gatie,1695125,"['canadian hip hop', 'pop']",79
+2Xr7M6vawpp6zwKOMU7iBU,Reneé Dominique,86583,['pinoy indie'],54
+1dpv0XBdgUa5z4vzn7ahIz,Donnalyn,210238,['opm'],45
+14scxEoUN7Dcx1m4EQ7oHe,Ashley O,58781,[],51
+7oEWmZ9dKlAVxTgmjUbYr4,J Boog,229714,"['jawaiian', 'kaneka', 'polynesian pop']",65
+3yzRiNMZdTsSUgplcyYZ4i,Blanco Brown,119123,['country rap'],67
+2OYCiru0FZMaAXWn6eL7MA,VVS Collective,21857,"['pinoy hip hop', 'pinoy trap', 'tagalog rap']",45
+0YrWkiT8pKvEu71t5Yllj7,Arvey,42580,"['pinoy hip hop', 'tagalog rap']",44
+71hhKLR9oCOsHLdRIoQ5OU,King Badger,94388,"['pinoy hip hop', 'pinoy trap']",54
+0HS00NN7MAfF59aJnfcxSO,Stephanie Poetri,463747,['indonesian pop'],63
+6USMTwO0MNDnKte5a5h0xx,Y2K,265918,['pop rap'],72
+1d8sE3eKAsuUHShVmIwK6d,Psychedelic Boyz,36854,"['pinoy alternative rap', 'pinoy hip hop', 'pinoy trap', 'tagalog rap']",38
+4qIVPF0s71ZYW3qzhu5GkF,Kina,634783,['sad rap'],78
+4Ga1P7PMIsmqEZqhYZQgDo,Lil Tecca,3693155,"['melodic rap', 'rap', 'trap']",85
+117XFtbZPnCI1EYKjYZWJc,Skusta Clee,589573,"['opm', 'pinoy hip hop', 'tagalog rap']",70
+2NjfBq1NflQcKSeiDooVjY,Tones And I,2745757,"['australian pop', 'pop']",82
+181bsRPaVXVlUKXrxwZfHK,Megan Thee Stallion,4196045,"['houston rap', 'pop', 'pop rap', 'trap queen']",90
+1juIpte4oHJ5ngVLPTUPuJ,Justin Vasquez,154840,"['opm', 'pinoy r&b']",55
+1vcXQE9gZOF9PCAtdtT51L,Geo Ong,202194,"['pinoy alternative rap', 'pinoy hip hop', 'tagalog rap']",43
+6C4irZ60X8G7UimMRQiCcg,X1,316889,['k-pop'],50
+3g7vYcdDXnqnDKYFwqXBJP,SB19,146303,"['opm', 'pinoy idol pop']",58
+28B54RKpJrEmDoGSTjsfY6,Magnus Haven,352283,['opm'],57
+7z5WFjZAIYejWy0NI5lv4T,Dan + Shay,2230709,"['contemporary country', 'country', 'pop']",81
+5BHFSMEjfLVx1JwRWjAOsE,SuperM,1536663,['k-pop'],67
+6ZdzYE3CEgY0Umgi3Dsgv8,Michael Dutchi Libranda,222802,['opm'],51
+4ofCBoyEiGSePFAG500xev,Regard,137857,"['dance pop', 'edm', 'pop dance', 'pop edm', 'slap house', 'tropical house']",82
+3lFMRWaEWZlfXdBig97kks,Nik Makino,210021,"['pinoy hip hop', 'pinoy trap', 'tagalog rap']",56
+0vRvGUQVUjytro0xpb26bs,Arizona Zervas,606367,"['pop rap', 'rhode island rap']",77
+7FBcuc1gsnv6Y1nwFtNRCb,My Chemical Romance,5912813,"['emo', 'pop punk']",81
+4jpsw9CQS439N0B7SecMgf,Ant Saunders,82191,"['chill r&b', 'pop']",62
+66W9LaWS0DPdL7Sz8iYGYe,JP Saxe,254382,"['alt z', 'canadian contemporary r&b', 'indie cafe pop', 'pop', 'post-teen pop']",78
+7xX15v6ahAkcT14kHfB9wB,True Damage,91755,['k-rap'],57
+73Np75Wv2tju61Eo9Zw4IR,Idina Menzel,345992,"['hollywood', 'show tunes']",76
+7vwlQ7XElRyPMJQGUXBz4O,Tatak Pinoy All-Stars,8555,[],39
+1SrWbIDP84JcSDr0oTBAQw,Matthaios,701689,"['opm', 'pinoy hip hop', 'tagalog rap']",62
+7KkqUt65v6LMtR369OQ6FB,Jonathan Groff,88256,"['hollywood', 'show tunes']",70
+2kHxkdiKCSnHMkhIgFBZaI,Kristen Bell,67214,"['disney', 'hollywood']",70
+4dSQICBjdUIp5iK6RRU2bY,Josh Gad,24179,"['hollywood', 'movie tunes', 'show tunes']",68
+3MyB0MyKec3Jq0AH2llk7v,Evan Rachel Wood,20519,['hollywood'],65
+70kkdajctXSbqSMJbQO424,Kacey Musgraves,950903,"['contemporary country', 'country dawn', 'pop', 'post-teen pop', 'texas country']",76
+2SrSdSvpminqmStGELCSNd,Stormzy,2259040,"['grime', 'uk hip hop']",79
+7uaIm6Pw7xplS8Dy06V6pT,Trevor Daniel,610911,"['alternative r&b', 'melodic rap', 'pop rap']",77
+4sEykiNSzZbkFkNXTb1bVd,Hotdog,40631,"['classic opm', 'manila sound', 'opm']",46
+1vVHevk2PD45epYnDi9CCc,Jack Stauber,913219,['pittsburgh indie'],70
+51Blml2LZPmy7TTiAg47vQ,U2,8282824,"['irish rock', 'permanent wave', 'rock']",83
+6gbGGM0E8Q1hE511psqxL0,Ray J,709892,"['pop rap', 'r&b', 'urban contemporary']",64
+391oLRVmoTkumiN79HkTWu,Darlene Love,38222,"['adult standards', 'brill building pop', 'motown']",46
+0XATRDCYuuGhk0oE7C0o5G,MAMAMOO,3785810,"['k-pop', 'k-pop girl group']",74
+790FomKkXshlbRYZFtlgla,KAROL G,16453052,"['latin', 'reggaeton', 'reggaeton colombiano', 'trap latino']",91
+757aE44tKEUQEqRuT6GnEB,Roddy Ricch,6194563,"['melodic rap', 'rap', 'trap']",89
+4r63FhuTkUYltbVAg5TQnk,DaBaby,6821772,"['north carolina hip hop', 'rap']",95
+4Gso3d4CscCijv0lmajZWs,Don Toliver,1465724,"['rap', 'trap']",86
+5cj0lLjcoR7YOSnhnX0Po5,Doja Cat,6758476,"['dance pop', 'pop', 'pop rap']",95
+4vxaQs6vK54nK89J1VtLex,PUBLIC,159279,['indie rockism'],69
+4LLpKhyESsyAXpc4laK94U,Mac Miller,5878177,"['hip hop', 'pittsburgh rap', 'rap']",88
+1Bl6wpkWCQ4KVgnASpvzzA,BROCKHAMPTON,1792521,"['boy band', 'hip hop', 'rap', 'underground hip hop']",81
+2kxP07DLgs4xlWz8YHlvfh,NIKI,823154,"['chill r&b', 'indonesian r&b', 'pop']",74
+1LZEQNv7sE11VDY3SdxQeN,Bee Gees,4440266,"['disco', 'mellow gold', 'soft rock']",82
+3gz6bSc7rsT9g4cB7r4xac,Young Vito,572,[],5
+2EGJbNf0Hva2C2N6hvhMXD,Soulstice,48648,"['pinoy hip hop', 'tagalog rap']",47
+4XpUIb8uuNlIWVKmgKZXC0,ZICO,995589,"['k-pop', 'k-rap', 'korean r&b']",68
+6Rx1JKzBrSzoKQtmbVmBnM,Hayley Williams,402311,[],72
+137W8MRPWKqSmrBGDBFSop,Wiz Khalifa,9968108,"['hip hop', 'pittsburgh rap', 'pop rap', 'rap', 'southern hip hop', 'trap']",89
+4ETSs924pXMzjIeD6E9b4u,Surfaces,693007,"['bedroom soul', 'pop']",78
+060TqET6tyyfAQLXDyIDD8,Raf Davis,27456,"['pinoy hip hop', 'pinoy trap']",50
+4xXCRXOfQKQ2gjWxNhNzYW,Air Supply,2435818,"['adult standards', 'mellow gold', 'soft rock']",73
+6bmlMHgSheBauioMgKv2tn,Powfu,873053,"['emo rap', 'sad rap']",81
+3PDFGpPl4ienSn5Vwisfrh,Flow G,354233,"['opm', 'pinoy hip hop', 'pinoy r&b', 'tagalog rap']",65
+7dxr6AabRWhsfYRyVJlErK,MC Einstein,21037,"['pinoy hip hop', 'tagalog rap']",58
+0Cp8WN4V8Tu4QJQwCN5Md4,BENEE,621199,"['alt z', 'nz pop', 'pop']",76
+3JsHnjpbhX4SnySpvpa9DK,V,3192977,['korean ost'],67
+2Q9c6ETFOkDDTy53U7DIgr,Maximillian,387474,[],67
+74cb3MG0x0BOnYNW1uXYnM,Hillsong UNITED,2984330,"['ccm', 'christian alternative rock', 'christian music', 'world worship', 'worship']",76
+4tw2Lmn9tTPUv7Gy7mVPI4,Kenny Rogers,1625116,"['adult standards', 'classic country pop', 'country', 'mellow gold', 'nashville sound', 'soft rock']",74
+0H39MdGGX6dbnnQPt6NQkZ,SAINt JHN,709659,"['melodic rap', 'pop rap', 'rap', 'slap house']",81
+1Do4bSzfUl0KWL9r1fITu0,Yoon Mirae,234086,"['k-pop', 'korean ost', 'korean pop', 'korean r&b']",59
+6dhfy4ByARPJdPtMyrUYJK,Yerin Baek,330691,"['k-indie', 'k-pop', 'korean pop']",64
+0xRXCcSX89eobfrshSVdyu,MEDUZA,421944,"['dance pop', 'edm', 'pop dance', 'pop house', 'tropical house']",83
+3r0NbTTxtCBUyxcIR4prXr,Jr Crown,69606,"['opm', 'pinoy hip hop', 'tagalog rap']",58
+3FwNjtXQCdxpDOXmgJQGnG,Emman,194249,"['pinoy hip hop', 'tagalog rap']",54
+2HPaUgqeutzr3jx5a9WyDV,PARTYNEXTDOOR,2985709,"['pop', 'pop rap', 'r&b', 'rap', 'toronto rap', 'trap', 'urban contemporary']",82
+1lmU3giNF3CSbkVSQmLpHQ,Surf Mesa,127292,['tropical house'],75
+3O5HD95HTEPgoPFOjAb7yV,DripReport,90902,['viral rap'],65
+2TJHmhbmT7L3gw2NKyDTHh,Manu Pilas,27753,[],59
+2AfmfGFbe0A0WsTYm0SDTx,(G)I-DLE,2548697,"['k-pop', 'k-pop girl group']",77
+6eJqAWJdd8JhAN1pQGie4r,Casting Crowns,1363374,"['ccm', 'christian alternative rock', 'christian music', 'world worship', 'worship']",70
+6L1XC7NrmgWRlwAeLJvVtA,Sam Fischer,108575,"['australian pop', 'dance pop', 'indie cafe pop', 'pop', 'post-teen pop', 'uk pop']",77
+6nfDaffa50mKtEOwR8g4df,GOT7,4895975,"['k-pop', 'k-pop boy group']",73
+3ybZTNrlK0QhL4rBxfLHOc,Gaho,208135,['k-pop'],64
+2PaZWGu5T5nHjY2xxAkFsT,THE SCOTTS,177591,['pop rap'],70
+59IohbmVWokN339BcxYt1S,Danzz,188,[],8
+63yrD80RY3RNEM2YDpUpO8,Melanie Martinez,10280821,"['alt z', 'electropop', 'modern rock', 'pop']",83
+3qNVuliS40BLgXGxhdBdqu,TAEYEON,1861897,['k-pop'],72
+19POcrtA9EM2Bvlgf19VPu,Brian Pepito,478,"['bisaya rap', 'vispop']",42
+1IFBgp2dkXquUYSNEY6hK7,Soulthrll,8474,"['bisaya rap', 'pinoy hip hop', 'pinoy trap', 'tagalog rap']",53
+27CDb3SwK4OdTI0YrGR9vH,Tanya Manalang,1185,[],40
+5TnQc2N1iKlFjYD7CPGvFc,DAY6,2212111,"['k-pop', 'k-pop boy group']",76
+4YXNoMVTHRt01jYaKXTumJ,Raiden,28143,['korean electronic'],63
+76BiSFOr2qBMR7TtLxOG5o,Gian Magdangal,610,[],35
+5RmQ8k4l3HZ8JoPb4mNsML,Agust D,4800189,['k-rap'],74
+7f4ignuCJhLXfZ9giKT7rH,NCT 127,4024721,"['k-pop', 'k-pop boy group']",76
+1XLWox9w1Yvbodui0SRhUQ,StaySolidRocky,147531,['melodic rap'],71
+6kyw9sh7ryjy1GQdPYH3Yd,Juan Caoile,62801,"['pinoy hip hop', 'tagalog rap']",51
+52gTrzyF0DyfkFl1DQz9Oq,Music Hero,76052,['opm'],57
+6sFHvCyqklnJpXC9Nh1aag,Alexander 23,182445,"['alt z', 'electropop', 'indie cafe pop', 'pop', 'post-teen pop', 'social media pop']",74
+4ufh0WuMZh6y4Dmdnklvdl,BAEKHYUN,1903399,['k-pop'],73
+0imE3buPhAowREqCrr4CYe,Peach Tree Rascals,167390,"['alternative r&b', 'chill r&b', 'indie r&b', 'pop']",69
+7uDdl5V5AETSFY7K3muu22,Arthur Nery,142583,"['opm', 'pinoy indie']",62
+19vSzy8s8Vc04MWTqExkLN,Ajay Stephens,15486,[],44
+1slszTGbkp1uNnI6G5uD0X,BANG YE DAM,123340,[],50
+56mfhUDKa1vec6rSLZV5Eg,Jawsh 685,91775,['nz pop'],77
+7vPGzgDg3qGUY5bWtrO3K4,Conkarah,65448,['jawaiian'],63
+3f0X043zSojego7Qn4Yi6U,Ace Banzuelo,8982,"['opm', 'pinoy indie', 'pinoy r&b', 'tagalog rap']",46
+0u6GtibW46tFX7koQ6uNJZ,Topic,140029,"['dance pop', 'edm', 'german dance', 'pop dance', 'pop edm', 'tropical house']",84
+7Dhd8nNMvFdye1R3Y8wE6C,Lil Vinceyy,7937,['pinoy hip hop'],46
+7nqOGRxlXj7N2JYbgNEjYH,SEVENTEEN,5225651,"['k-pop', 'k-pop boy group']",78
+2dIgFjalVxs4ThymZ67YCE,Stray Kids,4591062,"['k-pop', 'k-pop boy group']",81
+7bmYpVgQub656uNTu6qGNQ,Hwa Sa,1704933,"['k-pop', 'korean mask singer']",69
+3JDG63cSaK3xgDnB2H55Xp,Audrey Mika,163549,"['alt z', 'chill r&b']",68
+2M4mQMnLHQQXsFsRmTTqsR,Jana Garcia,743,['pinoy singer-songwriter'],40
+0NIPkIjTV8mB795yEIiPYL,Wallows,1866070,"['indie pop', 'modern rock', 'pop', 'rock']",79
+6bwp9ObI8FWvMPCIWVBmhl,Red Velvet - IRENE & SEULGI,311551,['k-pop'],62
+36cIRruPdUPW82OmPWVUQ7,Michael Bars,2850,[],31
+6741jcSlgsv0M3B4ruIPS5,EXO-SC,848913,"['k-pop', 'k-pop boy group']",57
+2JbE7jUIGtpXSzytnyMg6U,Curtis Waters,66034,[],67
+5ENj57ble0bsG2s6C0vVkc,Alessandra De Rossi,1633,[],38
+2IDLDx25HU1nQMKde4n61a,Rich Brian,1792959,['indonesian hip hop'],73
+5GoU6Zkbt3w10nTYq6vBQh,Twenty-Nine Eleven,11356,['opm'],39
+2LIk90788K0zvyj2JJVwkJ,Jack Harlow,885334,"['deep underground hip hop', 'kentucky hip hop', 'pop rap', 'rap']",84
+4Uc8Dsxct0oMqx0P6i60ea,Conan Gray,3311794,"['alt z', 'bedroom pop', 'electropop', 'indie pop', 'pop', 'post-teen pop']",84
+3KonOYiLsU53m4yT7gNotP,TREASURE,811576,['k-pop'],69
+4BBN286rBKyCWsSPq2cxYO,Sam Kim,254425,"['chill r&b', 'k-pop', 'korean pop', 'korean r&b']",63
+1KP6TWI40m7p3QBTU6u2xo,BØRNS,1004352,"['modern alternative rock', 'modern rock', 'pop']",75
+6iWghHqk07KYuZWB21Ff4i,Jem Macatuno,11789,[],47
+4slXciON4jYY6mqE9LjSFx,Bandang Lapis,129160,['opm'],60
+45dkTj5sMRSjrmBSBeiHym,Tate McRae,1442062,"['alt z', 'dance pop', 'electropop', 'pop', 'post-teen pop']",85
+6fWVd57NKTalqvmjRd2t8Z,24kGoldn,1075305,['cali rap'],87
+0eDvMgVFoNV3TpwtrVCoTj,Pop Smoke,5609221,['brooklyn drill'],93
+0ZVAv3drBuIRSc88ATH6UK,DJ Noiz,56079,"['dubsteppe', 'nz hip hop', 'polynesian pop']",54
+3Q2ya2vGeOhQ9CaF9wWNP6,Shane Filan,112255,['irish pop'],60
+6DiAVYfSzZi8h1fGuTD6LI,Jimmy Bondoc,326492,['opm'],53
+6DgP9otnZw5z6daOntINxp,Joel Corry,185300,"['dance pop', 'edm', 'house', 'pop', 'pop dance', 'tropical house', 'uk dance']",85
+1W7FNibLa0O0b572tB2w7t,Pink Sweat$,778530,"['bedroom soul', 'pop']",80
+3QJUFtGBGL05vo0kCJZsmT,salem ilese,123280,"['alt z', 'modern indie pop', 'social media pop']",72
+3wVXTWabe3viT0jF7DfjOL,Vedo,242599,"['chill r&b', 'pop r&b', 'r&b']",72
+3hB5x7E5sQzBHuG3xiqmUC,Logan Harris,3853,[],0
+5R4HkjoZdxW3ZoVGC0e0qD,Julian Sean,10019,['opm'],47
+3ID2V4b0oGSEbwPENAsdbG,Gagong Rapper,3390,['tagalog rap'],39
+6MPCFvOQv5cIGfw3jODMF0,Internet Money,321800,"['pop rap', 'rap', 'trap']",84
+021sXp6RH5MQCCp2hmal6q,Jom,23287,"['opm', 'pinoy r&b']",53
+3V0ZQW0dNuVaFtbVYgSI24,Claire Rosinkranz,126394,['modern indie pop'],69
+7MPGCB854Qo4alYMOPkBka,Ritt Momney,95662,['bedroom pop'],74
+7dFzqx2qyelGPiBKmdSEOT,Rob Deniel,36838,['pinoy indie'],57
+543f0NvGig5Moo9XROTUur,Ebe Dancel,101430,"['opm', 'pinoy rock']",54
+2C9n4tQgNLhHPhSCmdsQnk,David Archuleta,415783,"['dance pop', 'idol', 'lds youth', 'neo mellow', 'post-teen pop', 'viral pop']",63
+3l0CmX0FuQjFxr8SK7Vqag,Clairo,2539016,"['bedroom pop', 'pop']",83
+3paGCCtX1Xr4Gx53mSeZuQ,NCT U,2689060,"['k-pop', 'k-pop boy group']",73
+4zrB9WV6Z0iKKnGb1Pj0P2,AJ Rafael,124210,"['opm', 'viral pop']",58
+0qlWcS66ohOIi0M8JZwPft,GFRIEND,1156484,"['k-pop', 'k-pop girl group']",69
+1r4hJ1h58CWwUQe3MxPuau,Maluma,25576709,"['latin', 'reggaeton', 'reggaeton colombiano']",92
+6YVMFz59CuY7ngCxTxjpxE,aespa,374551,"['k-pop', 'k-pop girl group']",68
+20DZAfCuP1TKZl5KcY7z3Q,SLANDER,282210,"['dubstep', 'edm', 'electronic trap', 'pop dance']",76
+2JyNzzFJh2wkkZo7ZjMSs2,JM Bales,7358,['opm'],53
+50ifAXDdkDGG0RTON2If8K,Slapshock,126373,"['opm', 'pinoy metal', 'pinoy rock']",51
+5t5FqBwTcgKTaWmfEbwQY9,ENHYPEN,1018813,['k-pop boy group'],77
+6iVo62B0bdTknRcrktCmak,KAI,404021,['k-pop'],65
+7IlRNXHjoOCgEAWN5qYksg,Aya Nakamura,2743650,"['basshall', 'francoton']",79
+7MmIC8lbUdmL6c05M63KF6,The Rossman Ensemble,89,[],20
+2tIP7SsRs7vjIcLrU85W8J,The Kid LAROI,1782279,['australian hip hop'],90
+6XpaIBNiVzIetEPCWDvAFP,Whitney Houston,6628031,"['dance pop', 'pop', 'urban contemporary']",82
+4QQgXkCYTt3BlENzhyNETg,"Earth, Wind & Fire",2889717,"['disco', 'funk', 'jazz funk', 'motown', 'quiet storm', 'soul']",78
+0bBz5bRBkExaej2HxtVfCw,347aidan,191926,['sad rap'],73
+05YVYeV4HxYp5rrWalvuE1,"Grover Washington, Jr.",205511,[],72
+1McMsnEElThX1knmY4oliG,Olivia Rodrigo,2313656,"['pop', 'post-teen pop']",93
+0ZUvK7zGdXLd78mQr3t1Tw,Ricky Montgomery,634265,"['alt z', 'indie pop', 'la indie', 'pop']",77
+1HkpK55jsORzgtOURbOeQH,1096 Gang,7434,"['pinoy hip hop', 'tagalog rap']",52
+4fxd5Ee7UefO4CUXgwJ7IP,Giveon,1096853,"['pop', 'r&b']",92
+0TnOYISbd1XYRBk9myaseg,Pitbull,8423166,"['dance pop', 'latin', 'miami hip hop', 'pop', 'pop rap']",88
+1IQ4CjwKkdARjL5KtYiMt4,Ez Mil,51780,"['pinoy hip hop', 'pinoy trap', 'tagalog rap']",52
+1NIQyQhhLxI07lSrY00HVB,Je,5304,"['pinoy hip hop', 'tagalog rap']",58
+5WHKBKrvTBMPoQX3v3Bq8J,Leah Nobel,13550,['nashville singer-songwriter'],62
+2joIhhX3Feq47H4QXVDOr3,RINI,316258,"['alternative r&b', 'australian r&b', 'bedroom soul', 'chill r&b', 'pop']",66
+2d3VHzlOEwXvmBdS4pzOPL,LeAnn Rimes,922678,"['country', 'country dawn', 'dance pop', 'pop rock']",67
+3Z02hBLubJxuFJfhacLSDc,Bryan Adams,2115789,"['canadian pop', 'canadian singer-songwriter', 'classic canadian rock', 'heartland rock', 'mellow gold', 'rock', 'soft rock']",80
+6gezkje7GoJlQbHBgLXHuu,Destiny Rogers,84420,[],67
+6cK3NBO6uP7hh0oyuVELFl,Saweetie,1146207,"['cali rap', 'dance pop', 'pop', 'pop rap', 'post-teen pop', 'trap queen']",84
+6jGMq4yGs7aQzuGsMgVgZR,Lil Tjay,3101476,"['brooklyn drill', 'melodic rap', 'nyc rap']",91
+1U1el3k54VvEUzo3ybLPlM,Kali Uchis,1794423,"['colombian pop', 'pop']",88
+4RA4PC3WHM9OHZLExirTcU,APO Hiking Society,354885,"['classic opm', 'opm']",60
+1uU7g3DNSbsu0QjSEqZtEd,Masked Wolf,238572,['australian hip hop'],86
+7yaaxrkMOWJZXpIYHkppDH,Angela Ken,9562,['opm'],61
+1tM4ox3QsSpl3R2VwLjJ47,Larissa Lambert,12474,['chill r&b'],66
+3eVa5w3URK5duf6eyVDbu9,ROSÉ,745213,[],78
+6l880dxsvN2x5wiceaG6D0,Rico Blanco,311185,"['opm', 'pinoy indie', 'pinoy rock', 'pop rock']",57
+2vnB6tuQMaQpORiRdvXF9H,Beach Bunny,539290,"['bubblegrunge', 'chicago indie', 'indie pop', 'pop']",78
+3klZnJvYGIbWritVwQD434,Duncan Laurence,218638,['dutch pop'],81
+1WgXqy2Dd70QQOU7Ay074N,AURORA,1460228,"['art pop', 'norwegian pop']",83
+0FRUZvZNPzM3YJMABJxf2K,WENDY,461417,"['k-pop', 'korean pop']",68
+67IN4cLJ7798gUapyZlmac,Zack Tabudlo,76789,"['acoustic opm', 'opm']",72
+6AgTAQt8XS6jRWi4sX7w49,Polo G,4012506,['chicago rap'],93
+73B9bjqS2Z5KLXNGqXf64m,Weeekly,150971,['k-pop'],72
+3pc0bOVB5whxmD50W79wwO,keshi,862791,"['chill r&b', 'pop']",77
+3ZSbXArE6mxOleJnsumK4u,eAeon,32864,"['k-indie', 'korean electropop']",64
+3aQeKQSyrW4qWr35idm0cy,T-Pain,3260696,"['dance pop', 'hip hop', 'pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'urban contemporary']",84
+1mCY2mHctggfYiEqpCgcSz,Bonnie Bailey,5050,[],49
+1gBUSTR3TyDdTVFIaQnc02,NCT DREAM,3149115,"['k-pop', 'k-pop boy group']",79
+4qXC0i02bSFstECuXP2ZpL,Blxst,127004,[],75
+1DlYnIiliftt6R21Y5NOW2,Adie,7382,"['opm', 'pinoy indie']",52
+26cMerAxjx9GedFt0lMDjm,Bella Poarch,128338,[],73
+2WgfkM8S11vg4kxLgDY3F5,StarBoi3,8072,[],73
+3Dr5ezvDdYsycy1gfaZWSL,raven,7385,[],50
+0UntV1Bw2hk3fbRrm9eMP6,B.I,173803,[],61
