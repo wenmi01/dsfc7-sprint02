@@ -70,6 +70,7 @@ st.sidebar.markdown("""
 - Heide Mae Balcera
 - Jay Silverio
 - Mark Mendoza
+- Renzo Luis Rodelas
 - Rowen Remis R. Iral
 
 *Eskwelabs Data Science Fellows Cohort 7*
