@@ -21,6 +21,11 @@ import streamlit.components.v1 as components
 ## import
 import notebooks.sprint_functions as sf
 
+## spotify
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+import time
+
 ## Extra configs
 st.set_page_config(page_title="Music Streaming Analytics")
 hide_streamlit_style = """
@@ -70,9 +75,50 @@ st.sidebar.title("Oops Let's Do it Again")
 nav = st.sidebar.radio("Navigation ", 
                (
                     'Home', 
-                    'Recommender System'
+                    'Recommender System',
+                    'Spotify dev'
                ))
-  
+
+### Dev
+def page_dev():
+
+    
+    client_id='b50b238e07504b9fa981137104f61b24'
+    client_secret='7a6fc994db03435b9728db16c06268db'
+    redirect_uri='http://datadev.bullandbearcapital.com:8502/callback/'
+
+    username = 'rob0nismydxooi7jxg95k19mp'
+    scope_playlist = 'playlist-modify-public'
+    scope_user = 'user-library-modify'
+
+    #Credentials to access the Spotify Music Data
+    manager = SpotifyClientCredentials(client_id,client_secret)
+    sp = spotipy.Spotify(client_credentials_manager=manager)
+
+    #Credentials to access the library  
+    token_user= spotipy.util.prompt_for_user_token(username,scope_user,client_id,client_secret,redirect_uri) 
+    sp_user = spotipy.Spotify(auth=token_user)
+
+    #Credentials to access the playlists
+    token_playlist= spotipy.util.prompt_for_user_token(username,scope_playlist,client_id,client_secret,redirect_uri) 
+    sp_playlist = spotipy.Spotify(auth=token_playlist)
+    
+    ## Tracklist
+    track_id_list = ['4pUCKHjJ4Ijewc37rRrvHn', '5troof8mcGO3AafoDbk1gc',
+       '78qd8dvwea0Gosb6Fe6j3k', '0Wv6HtcBNex6lwPugykWCd',
+       '7HzvvhTmfzvD1dV4F7MIcm', '5p10VwQ8LRoyTc8LFrvPw6',
+       '1raaNykBg1bDnWENUiglUA', '017PF4Q3l4DBUiWoXk4OWT',
+       '1ZEm9cJC05rawV2tptNfTS', '6aHCXTCkPiB4zgXKpB7BHS']
+    
+    ## create new playlist
+    new_playlist_name = "Eskwelabs: DEV 1 Recommendations for seed track Kill This Love"    
+    new_playlist = sp_playlist.user_playlist_create(username, name=new_playlist_name)
+    new_playlist
+    
+    ## create
+    playlist_id=new_playlist['id']
+    sp_playlist.user_playlist_add_tracks(username, playlist_id, track_id_list)
+    
 ### Pages
 genre = []
 def page_home():
@@ -132,6 +178,8 @@ if (nav == 'Home'):
     page_home()
 elif (nav == 'Recommender System' ):
     page_recommender()
+elif (nav == 'Spotify dev'):
+    page_dev()
 
 
 ## Credits
