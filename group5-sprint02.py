@@ -2,6 +2,9 @@
 # starter
 # streamlit run group5-sprint02.py --server.port 8502
 
+# https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -15,8 +18,11 @@ warnings.filterwarnings('ignore')
 
 import streamlit.components.v1 as components
 
+## import
+import notebooks.sprint_functions as sf
+
 ## Extra configs
-st.set_page_config(page_title="Resource Allocation of SPED Schools in the Philippines")
+st.set_page_config(page_title="Music Streaming Analytics")
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -48,19 +54,73 @@ from PIL import Image
 
 ## Anyone wants a loadable setup? multiple pages?
 ## Modular pages
-import page_test
-page_test.hello()
+#import page_test
+#page_test.hello()
 
 
 ## Site Wide Contents
 ### Main
-st.header("Spotify")
+#Oops Let's Do it Again")
 
 
 ### Side bars
-st.sidebar.title("Spotify")
+st.sidebar.title("Oops Let's Do it Again")
 
+## Radio
+nav = st.sidebar.radio("Pages ", 
+               (
+                    'Home', 
+                    'Recommender System'
+               ))
+  
+### Pages
+genre = []
+def page_home():
+    st.title("Home")
+    st.markdown("""
+## Our Client
+
+## Objectives
+ldfslfs
+    """)
+
+def page_recommender():
+    st.title("Recommender System")
+    feature_cols = ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness',\
+                'liveness', 'valence', 'tempo']
+    
+    action1 = st.sidebar.selectbox("Match: ", 
+                           ['Track', 'Genre', 'Music'])
+    if action1 == 'Track':
+        tracks1 = st.sidebar.multiselect("Britney's Tracks:",
+                                        [''])
+        mult1 = st.sidebar.multiselect("Select Collaborator Genres: ",
+                         ['Dancing', 'Reading', 'Sports'])
+        st.sidebar.radio("Select Distance Algorithm",
+                         ['Euclidian Distance Algorithm', 'Manhattan Distance Algorithm', 'Cosine Distance Algorithm'])
+        
+    elif action1 == 'Genre':
+        pass
+    elif action1 == 'Music':
+        model1 =  st.sidebar.selectbox("Select a Classifier: ",
+                         ['k-Nearest Neighbor', 'Random Forest', 'XGBoost'])
+        
+        danceability = st.sidebar.slider("danceability", 0.0, 1.00, 0.01)
+        energy = st.sidebar.slider("energy", 0.0, 1.00, 0.01)
+        speechiness = st.sidebar.slider("speechiness", 0.0, 1.00, 0.01)
+        acousticness = st.sidebar.slider("acousticness", 0.0, 1.00, 0.01)
+        instrumentalness = st.sidebar.slider("instrumentalness", 0.0, 1.00, 0.01)
+        liveness = st.sidebar.slider("liveness", 0.0, 1.00, 0.01)
+        valence = st.sidebar.slider("valence", 0.0, 1.00, 0.01)
+        tempo = st.sidebar.slider("tempo", 0.0, 1.00, 0.01)
+        
+        
+    
 ### Page switching
+if (nav == 'Home'):
+    page_home()
+elif (nav == 'Recommender System' ):
+    page_recommender()
 
 
 ## Credits
@@ -69,7 +129,6 @@ st.sidebar.markdown("""
 - Beverly Lumbera
 - Heide Mae Balcera
 - Jay Silverio
-- Mark Mendoza
 - Renzo Luis Rodelas
 - Rowen Remis R. Iral
 
