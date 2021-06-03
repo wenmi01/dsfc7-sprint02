@@ -67,7 +67,7 @@ from PIL import Image
 st.sidebar.title("Oops Let's Do it Again")
 
 ## Radio
-nav = st.sidebar.radio("Pages ", 
+nav = st.sidebar.radio("Navigation ", 
                (
                     'Home', 
                     'Recommender System'
@@ -79,12 +79,17 @@ def page_home():
     st.title("Home")
     st.markdown("""
 ## Our Client
-
+""")
+    image = Image.open('./images/SDC_2212108_2016-23-12--01-05-18.jpg')
+    st.image(image, caption='', use_column_width=False, width=350)
+    st.markdown("""
 ## Objectives
 ldfslfs
     """)
 
 def page_recommender():
+    image = Image.open('./images/britney-spears-facebook-cover-timeline-banner-for-fb.jpg')
+    st.image(image, caption='', use_column_width=False, width=640)
     st.title("Recommender System")
     feature_cols = ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness',\
                 'liveness', 'valence', 'tempo']
@@ -100,7 +105,13 @@ def page_recommender():
                          ['Euclidian Distance Algorithm', 'Manhattan Distance Algorithm', 'Cosine Distance Algorithm'])
         
     elif action1 == 'Genre':
-        pass
+        tracks1 = st.sidebar.multiselect("Britney's Genres:",
+                                        [''])
+        mult1 = st.sidebar.multiselect("Select Collaborator Genres: ",
+                         ['Dancing', 'Reading', 'Sports'])
+        st.sidebar.radio("Select Distance Algorithm",
+                         ['Euclidian Distance Algorithm', 'Manhattan Distance Algorithm', 'Cosine Distance Algorithm'])
+
     elif action1 == 'Music':
         model1 =  st.sidebar.selectbox("Select a Classifier: ",
                          ['k-Nearest Neighbor', 'Random Forest', 'XGBoost'])
