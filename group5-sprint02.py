@@ -25,6 +25,9 @@ import notebooks.sprint_functions as sf
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import time
+from spotipy import oauth2
+
+import requests
 
 ## Extra configs
 st.set_page_config(page_title="Music Streaming Analytics")
@@ -75,12 +78,87 @@ st.sidebar.title("Oops Let's Do it Again")
 nav = st.sidebar.radio("Navigation ", 
                (
                     'Home', 
+                    'Presentation',
                     'Recommender System',
                     'Spotify dev'
                ))
-
+token = None
 ### Dev
-#def page_dev():
+# https://stackoverflow.com/questions/49239516/spotipy-refreshing-a-token-with-authorization-code-flow
+# https://stackoverflow.com/questions/25711711/spotipy-authorization-code-flow
+def page_dev():
+    
+    reco =st.sidebar.selectbox('Recommendation',['Tracks'])
+    if reco == 'Tracks':
+        #st.write("Tracks -- path ******")
+        new_playlist_name = st.text_input('Enter Playlist name','Type here Playlist Name')
+        new_playlist_name = "Eskewelabs DEV " + new_playlist_name
+        
+        btnCreatePlaylist = st.button("Create Playlist")
+        
+        token_info = None
+        if btnCreatePlaylist:
+            username = 'rob0nismydxooi7jxg95k19mp'
+            client_id='b50b238e07504b9fa981137104f61b24'
+            client_secret='7a6fc994db03435b9728db16c06268db'
+            redirect_uri='https://datadev.bullandbearcapital.com:8502/callback/'
+            scopes = ['playlist-modify-public','user-library-modify']
+            sp_oauth = oauth2.SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes)
+            #token_info = sp_oauth.get_cached_token() 
+            if not token_info:
+                #auth_url = sp_oauth.get_authorize_url(show_dialog=True)
+                auth_url = sp_oauth.get_authorize_url()
+                #st.write(auth_url)
+                
+                req1 = requests.get(auth_url)
+                #st.write(req1)
+                #st.write(req1.content)
+                
+                response = req1.content
+                #st.write(response)
+                
+                #response = input('Paste the above link into your browser, then paste the redirect url here: ')
+
+                code = sp_oauth.parse_response_code(response)
+                token_info = sp_oauth.get_access_token(code)
+
+                token = token_info['access_token']
+            else:
+                token = token_info['access_token']
+
+            sp = spotipy.Spotify(auth=token)
+            #st.text(token)
+
+
+                #
+                ## Tracklist
+            track_id_list = ['4pUCKHjJ4Ijewc37rRrvHn', '5troof8mcGO3AafoDbk1gc',
+                   '78qd8dvwea0Gosb6Fe6j3k', '0Wv6HtcBNex6lwPugykWCd',
+                   '7HzvvhTmfzvD1dV4F7MIcm', '5p10VwQ8LRoyTc8LFrvPw6',
+                   '1raaNykBg1bDnWENUiglUA', '017PF4Q3l4DBUiWoXk4OWT',
+                   '1ZEm9cJC05rawV2tptNfTS', '6aHCXTCkPiB4zgXKpB7BHS']
+
+            recommender_tid_list = []
+
+                ## create new playlist
+            #new_playlist_name = "Eskwelabs: DEV 2 Recommendations for seed track Kill This Love"    
+            new_playlist = sp.user_playlist_create(username, name=new_playlist_name)
+            #new_playlist    
+                ## create
+            playlist_id=new_playlist['id']
+            sp.user_playlist_add_tracks(username, playlist_id, track_id_list)
+
+            playlists = sp.user_playlists(username)
+            st.subheader("My Playlists")
+            my_playlist = []
+            for playlist in playlists['items']:
+                my_playlist.append(playlist['name'])
+            #new_playlist
+            my_playlist
+
+
+####
+    
 #    client_id='b50b238e07504b9fa981137104f61b24'
 #    client_secret='7a6fc994db03435b9728db16c06268db'
 #    #redirect_uri='http://datadev.bullandbearcapital.com:8502/callback/'
@@ -130,12 +208,9 @@ def page_home():
 ldfslfs
     """)
 
-def page_prezi()):
-    stc.html(
-                '''
-                 PUT_THE_IFRAME_EMBED_URL_HERE_FROM_THE_PUBLISHED_GSLIDES
-                 '''
-             <strong>Iframe Embed URL</strong>
+def page_prezi():
+    components.html(
+        '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKOq8B3eOumWnBnhbi6MtyoRIKb89M3diXI5VAtKu-i79B2909RrHGnhcvOzXu4EIWNUrkPTIKj-W6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>' 
             ,height=920, width=1630)
 
 def page_recommender():
@@ -185,8 +260,9 @@ elif (nav == 'Presentation'):
     page_prezi()
 elif (nav == 'Recommender System' ):
     page_recommender()
-# elif (nav == 'Spotify dev'):
-    # page_dev()
+elif (nav == 'Spotify dev'):
+    page_dev()
+    #pass
 
 
 ## Credits
