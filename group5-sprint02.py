@@ -18,10 +18,20 @@ warnings.filterwarnings('ignore')
 
 import streamlit.components.v1 as components
 
-## import
+## Modeling imports
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.neighbors import KNeighborsClassifier 
+from sklearn.metrics import accuracy_score,roc_curve, auc, confusion_matrix, classification_report
+from sklearn.metrics.pairwise import euclidean_distances, manhattan_distances, cosine_similarity
+
+from sklearn.preprocessing import MinMaxScaler
+scalerMinmax = MinMaxScaler()
+
+
+## import external
 import notebooks.sprint_functions as sf
 
-## spotify
+## Spotify
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import time
@@ -52,11 +62,24 @@ from PIL import Image
 #st.image(image, caption='Sunrise by the mountains', use_column_width=False, width=350)
 # end of Image load example
 
+
 ###### DATA Loading
 # Create the 6 data frames per csv file (Upload the CSV files first!)
 # df_file = pd.read_csv("./data/file.csv")
 
-######
+## DATA: britney_df
+britney_df = pd.read_csv('notebooks/data/Britney Spears_playlist_tracks_data.csv')
+#st.write(sf.explore_data(britney_df))
+#st.dataframe(britney_df)
+britney_df =britney_df.drop_duplicates(subset='track_id')
+#st.write(sf.explore_data(britney_df))
+#st.dataframe(britney_df)
+britney_df = britney_df.dropna()
+#st.dataframe(britney_df)
+
+
+
+###### END OF DATA Laoding
 
 ## Pages as def functions
 
@@ -225,6 +248,7 @@ def page_recommender():
     if action1 == 'Track':
         tracks1 = st.sidebar.multiselect("Britney's Tracks:",
                                         [''])
+        st.sidebar.write("For Collaboration")
         mult1 = st.sidebar.multiselect("Select Collaborator Genres: ",
                          ['Dancing', 'Reading', 'Sports'])
         st.sidebar.radio("Select Distance Algorithm",
@@ -276,5 +300,5 @@ st.sidebar.markdown("""
 
 *Eskwelabs Data Science Fellows Cohort 7*
 
-*Mentored by Rods*
+*Mentored by Rodel "Rods" Arenas*
 """)

@@ -13,19 +13,20 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-def explore_data():
+def explore_data(df):
     print("**** Dimensions or Shape (rows x columns)")
-    display(df.shape)
+    print(df.shape)
     print("**** Column Names")
-    display(df.columns)
+    print(df.columns)
     print("**** Data Types")
-    display(df.dtypes)
+    print(df.dtypes)
     print("**** Descriptive Statistics")
-    display(df.describe())
+    print(df.describe())
     print("**** Head")
-    display(df.head())
+    print(df.head())
     print("**** Null Checks")
-    display(df.isnull().sum())
+    print(df.isnull().sum())
+    return df.shape, df.columns, df.dtypes, df.describe(), df.head(), df.isnull().sum()
     
 def save_model(fname, model):
     """
