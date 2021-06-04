@@ -24,6 +24,7 @@ http://datadev.bullandbearcapital.com:8502/ - Mirror
 - Jay Silverio
 - Renzo Luis Rodelas
 - Rowen Remis R. Iral
+
 *Eskwelabs Data Science Fellows Cohort 7*
 
 *Mentored by Rodel Arenas*
