@@ -210,7 +210,7 @@ def page_deploy(df):
         #track_id_list
         
         new_playlist_name = st.text_input('Enter Playlist name','PlaylistName')
-        new_playlist_name = "Eskewelabs DS Fellows Cohort 7: " + new_playlist_name
+        new_playlist_name = "Rod's Records - Eskewelabs DS Fellows: " + new_playlist_name
 
         btnCreatePlaylist = st.button("Create Playlist")
 
@@ -270,12 +270,14 @@ def page_deploy(df):
             sp.user_playlist_add_tracks(username, playlist_id, track_id_list)
 
             playlists = sp.user_playlists(username)
-            st.subheader("My Playlists")
+            
             my_playlist = []
             for playlist in playlists['items']:
                 my_playlist.append(playlist['name'])
             #new_playlist
             st.success("Success: " + my_playlist[0] + " created.")
+            st.info("♫ 🎧 Click now to Open Playlist: " + playlists['items'][0]["external_urls"]["spotify"])
+            st.subheader("My Playlists")
             my_playlist
             
     
@@ -302,8 +304,8 @@ def page_prezi():
         '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKOq8B3eOumWnBnhbi6MtyoRIKb89M3diXI5VAtKu-i79B2909RrHGnhcvOzXu4EIWNUrkPTIKj-W6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>' 
             ,height=920, width=1630)
 
-#def page_reco_track(df, genre):
-def page_reco_track(df):
+def page_reco_track(df, genre):
+#def page_reco_track(df):
     
     #st.dataframe(predictions_df)
     britney_df = df[df.artist_name == 'Britney Spears']
@@ -318,8 +320,8 @@ def page_reco_track(df):
     # EDA - Other Artists' genres
     other_genres = list(others_df.predicted_genre.unique())
     
-    #tracks = britney_df[(britney_df['genre'==genre])][['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
-    tracks = britney_df[['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
+    tracks = britney_df[(britney_df['predicted_genre']==genre)][['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
+    #tracks = britney_df[['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
     st.dataframe(pd.DataFrame(list(tracks.items()), columns=['track_id','track_name']))
     
     seeds = generate_random_seedtracks(tracks, 3)
@@ -368,18 +370,21 @@ def page_reco_genre(df, genre, dist_algo, n):
     if dist_algo == 'Cosine Distance Algorithm':
         reco_df['cosine_dist'] = others_df.apply(lambda x: 1-cosine_similarity(x[feature_cols].values.reshape(1, -1), seedtrack_genre[feature_cols].values.reshape(1, -1)).flatten()[0], axis=1)
         reco_top_10 = reco_df.sort_values('cosine_dist', ascending=False).head(n).reset_index()
+        st.write('Recommended')
         st.dataframe(reco_top_10)
         retdf = reco_top_10
         
     elif dist_algo == 'Euclidian Distance Algorithm':
         reco_df['euclidean_dist'] = others_df.apply(lambda x: euclidean_distances(x[feature_cols].values.reshape(-1, 1), seedtrack_genre[feature_cols].values.reshape(-1, 1)).flatten()[0], axis=1)
         reco_top_10 = reco_df.sort_values('euclidean_dist', ascending=False).head(n).reset_index()
+        st.write('Recommended')
         st.dataframe(reco_top_10)
         retdf = reco_top_10
         
     elif dist_algo == 'Manhattan Distance Algorithm':
         reco_df['manhattan_dist'] = others_df.apply(lambda x: manhattan_distances(x[feature_cols].values.reshape(-1, 1), seedtrack_genre[feature_cols].values.reshape(-1, 1)).flatten()[0], axis=1)
         reco_top_10 = reco_df.sort_values('manhattan_dist', ascending=False).head(n).reset_index()
+        st.write('Recommended')
         st.dataframe(reco_top_10)
         retdf = reco_top_10
         
@@ -423,17 +428,17 @@ def page_recommender(df):
                                         #["Jazz", "Pop", "Reggae", "Classical", "Country"])
                                          bs_genres #,bs_genres
                                         )
-        st.sidebar.write("For Collaboration")
-        other_genre1 = st.sidebar.multiselect("Select Collaborator Tracks: ",
-                                            other_genres#,other_genres
-                                          )
+        #st.sidebar.write("For Collaboration")
+        #other_genre1 = st.sidebar.multiselect("Select Collaborator Tracks: ",
+        #                                    other_genres#,other_genres
+        #                                  )
         distance_algo = st.sidebar.radio("Select Distance Algorithm",
                          ['Euclidian Distance Algorithm', 'Manhattan Distance Algorithm', 'Cosine Distance Algorithm'])
         
         #page_reco_genre(data, bs_genre1, distance_algo, 10)
         
-        #page_reco_track(data, bs_genre1)
-        page_reco_track(data)
+        page_reco_track(data, bs_genre1)
+        #page_reco_track(data)
         
 
     elif action1 == 'Genre':
@@ -441,14 +446,14 @@ def page_recommender(df):
                                         #["Jazz", "Pop", "Reggae", "Classical", "Country"])
                                          bs_genres #,bs_genres
                                         )
-        st.sidebar.write("For Collaboration")
-        other_genre1 = st.sidebar.multiselect("Select Collaborator Genres: ",
-                                            other_genres#,other_genres
-                                          )
+        #st.sidebar.write("For Collaboration")
+        #other_genre1 = st.sidebar.multiselect("Select Collaborator Genres: ",
+        #                                    other_genres#,other_genres
+        #                                  )
         distance_algo = st.sidebar.radio("Select Distance Algorithm",
                          ['Euclidian Distance Algorithm', 'Manhattan Distance Algorithm', 'Cosine Distance Algorithm'])
         
-        page_reco_genre(data, bs_genre1, distance_algo, 10)
+        page_reco_genre(data, bs_genre1, distance_algo, 50)
             
     elif action1 == 'Music':
         model1 =  st.sidebar.selectbox("Select a Classifier: ",
