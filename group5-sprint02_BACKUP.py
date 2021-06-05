@@ -42,9 +42,7 @@ from spotipy import oauth2
 import requests
 
 ## Extra configs
-#st.set_page_config(page_title="Music Streaming Analytics")
-st.set_page_config(page_title="Music Streaming Analytics", page_icon="🎧", layout="wide", initial_sidebar_state="expanded")
-
+st.set_page_config(page_title="Music Streaming Analytics")
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -108,8 +106,6 @@ client_id='b50b238e07504b9fa981137104f61b24'
 client_secret='7a6fc994db03435b9728db16c06268db'
 redirect_uri='https://datadev.bullandbearcapital.com:8502/callback/'
 scopes = ['playlist-modify-public','user-library-modify']
-
-myplaylists = []
             
 ## Data Processing
 
@@ -142,9 +138,9 @@ st.sidebar.image(image, caption='', use_column_width=False, width=290)
 ## Radio
 nav = st.sidebar.radio("Navigation ", 
                (
-                    #'Home', 
+                    'Home', 
                     'Presentation',
-                    #'Recommender System',
+                    'Recommender System',
                     'Spotify Deploy'
                ))
 
@@ -167,18 +163,7 @@ token = None
 ### Dev
 # https://stackoverflow.com/questions/49239516/spotipy-refreshing-a-token-with-authorization-code-flow
 # https://stackoverflow.com/questions/25711711/spotipy-authorization-code-flow
-def display_playlist(playlists):
-    st.subheader("My Playlists")
-    if (len(playlists) > 0):
-        for i, playlist in enumerate(playlists):
-            #my_playlist.append(playlist['name'])
-            if i == 0:
-                
-                st.info("Recently Added: ♫ 🎧 " + playlist['name'] + " " + playlist["external_urls"]["spotify"])
-            else:
-                st.success("♫ 🎧 " + playlist['name'] + " " + playlist["external_urls"]["spotify"])
-
-def page_deploy(df, my_playlists):
+def page_deploy(df):
     
     #st.dataframe(predictions_df)
     britney_df = df[df.artist_name == 'Britney Spears']
@@ -197,30 +182,29 @@ def page_deploy(df, my_playlists):
     britney_genre_df = britney_df.groupby('predicted_genre').mean()[feature_cols].reset_index()
     #britney_genre_df
     
-    #reco =st.sidebar.selectbox('Recommendation',['Tracks'])
-    reco =st.sidebar.selectbox('Recommendation',['Tracks', 'Genre'])
+    reco =st.sidebar.selectbox('Recommendation',['Tracks'])
     
+    bs_genre1 = st.sidebar.selectbox("Britney's Genre:",
+                                        #["Jazz", "Pop", "Reggae", "Classical", "Country"])
+                                         bs_genres #,bs_genres
+                                        )
+   
     
-
-
-    if reco == 'Genre':
+    if reco == 'Tracks':
         #st.write("Tracks -- path ******")
         st.header("Spotify Deployer")
         image = Image.open('./images/spotify_py.jpg')
         st.image(image, caption='', use_column_width=False, width=200)
         
-        bs_genre1 = st.sidebar.selectbox("Britney's Genre:",
-                                        #["Jazz", "Pop", "Reggae", "Classical", "Country"])
-                                         bs_genres #,bs_genres
-                                        )
+       
         #btnRecommend = st.button("Recommend")
         
         #if btnRecommend:
             
         
-        st.header("By Genre")
+        st.markdown("**Tracks**")
         
-        reco_num = st.number_input('Number of Recommendations',10,50)
+        reco_num = st.number_input('Top N',10,50)
         track_list_df = page_reco_genre(data, genre = bs_genre1, dist_algo='Cosine Distance Algorithm', n=reco_num)
         track_id_list = track_list_df['track_id']
         #track_id_list
@@ -235,16 +219,11 @@ def page_deploy(df, my_playlists):
 
     *This can be used to, let say, recommend a Monthly Playlist / Seasonal Playlist of Britney's existing tracks to help her land a hitmaker position or improve her numbers in terms of streams.*
                 ''')
-        
 
         token_info = None
         if btnCreatePlaylist:
-            import os
-            
 
             sp_oauth = oauth2.SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes)
-            #sp_oauth = oauth2.SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes, cache_path='backup_2/.cache')
-
             #token_info = sp_oauth.get_cached_token() 
             if not token_info:
                 #auth_url = sp_oauth.get_authorize_url(show_dialog=True)
@@ -261,17 +240,26 @@ def page_deploy(df, my_playlists):
                 #response = input('Paste the above link into your browser, then paste the redirect url here: ')
 
                 code = sp_oauth.parse_response_code(response)
-                #st.write(code)
-                #token_info = sp_oauth.get_access_token(code, check_cache=False)
                 token_info = sp_oauth.get_access_token(code)
-                #st.write(token_info)
 
                 token = token_info['access_token']
             else:
                 token = token_info['access_token']
 
             sp = spotipy.Spotify(auth=token)
-            #st.text(token)            
+            #st.text(token)
+
+
+                    #
+                    ## Tracklist
+                #track_id_list = ['4pUCKHjJ4Ijewc37rRrvHn', '5troof8mcGO3AafoDbk1gc',
+                #       '78qd8dvwea0Gosb6Fe6j3k', '0Wv6HtcBNex6lwPugykWCd',
+                #       '7HzvvhTmfzvD1dV4F7MIcm', '5p10VwQ8LRoyTc8LFrvPw6',
+                #       '1raaNykBg1bDnWENUiglUA', '017PF4Q3l4DBUiWoXk4OWT',
+                #       '1ZEm9cJC05rawV2tptNfTS', '6aHCXTCkPiB4zgXKpB7BHS']
+
+            recommender_tid_list = []
+            
             
             ## create new playlist
             #new_playlist_name = "Eskwelabs: DEV 2 Recommendations for seed track Kill This Love"    
@@ -283,101 +271,16 @@ def page_deploy(df, my_playlists):
 
             playlists = sp.user_playlists(username)
             
-            #my_playlist = []
-            #st.success("Success: " + my_playlist[0] + " created.")
-        
-            #if (len(playlists) > 0):
-                
-            myplaylists = playlists['items']
+            my_playlist = []
+            for playlist in playlists['items']:
+                my_playlist.append(playlist['name'])
+            #new_playlist
+            st.success("Success: " + my_playlist[0] + " created.")
+            st.info("♫ 🎧 Click now to Open Playlist: " + playlists['items'][0]["external_urls"]["spotify"])
+            st.subheader("My Playlists")
+            my_playlist
             
-            display_playlist(myplaylists)
-
-
-    elif reco == 'Tracks':
-        #st.write("Tracks -- path ******")
-        st.header("Spotify Deployer")
-        image = Image.open('./images/spotify_py.jpg')
-        st.image(image, caption='', use_column_width=False, width=200)
-
-        st.header("By Tracks")
-            
-        seed_n = st.number_input('Number of Seed tracks',3,len(britney_df))
-                        
-        reco_num = st.number_input('Number of Recommendations',10,50)
-        st.subheader("Randomly Generated Seed Tracks")
-        
-        track_list_df = page_reco_track2(data, seed_n, reco_num)  
-        track_id_list = track_list_df['track_id']
-        #track_id_list
-
-        new_playlist_name = st.text_input('Enter Playlist name','PlaylistName')
-        new_playlist_name = "Rod's Records - Eskewelabs DS Fellows: " + new_playlist_name
-
-        btnCreatePlaylist = st.button("Create Playlist")
-
-        st.markdown('''
-            **NOTE:** *This recommended playlist will be submitted to Spotify and will be available to other Spotify subscribers.*
-
-            *This can be used to, let say, recommend a Monthly Playlist / Seasonal Playlist of Britney's existing tracks to help her land a hitmaker position or improve her numbers in terms of streams.*
-                        ''')
-
-
-        token_info = None
-        if btnCreatePlaylist:
-            import os
-            
-
-            sp_oauth = oauth2.SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes)
-            #sp_oauth = oauth2.SpotifyOAuth(client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri,scope=scopes, cache_path='backup_2/.cache')
-
-            #token_info = sp_oauth.get_cached_token() 
-            if not token_info:
-                #auth_url = sp_oauth.get_authorize_url(show_dialog=True)
-                auth_url = sp_oauth.get_authorize_url()
-                #st.write(auth_url)
-
-                req1 = requests.get(auth_url)
-                #st.write(req1)
-                #st.write(req1.content)
-
-                response = req1.content
-                #st.write(response)
-
-                #response = input('Paste the above link into your browser, then paste the redirect url here: ')
-
-                code = sp_oauth.parse_response_code(response)
-                #st.write(code)
-                #token_info = sp_oauth.get_access_token(code, check_cache=False)
-                token_info = sp_oauth.get_access_token(code)
-                #st.write(token_info)
-
-                token = token_info['access_token']
-            else:
-                token = token_info['access_token']
-
-            sp = spotipy.Spotify(auth=token)
-            #st.text(token)            
-            
-            ## create new playlist
-            #new_playlist_name = "Eskwelabs: DEV 2 Recommendations for seed track Kill This Love"    
-            new_playlist = sp.user_playlist_create(username, name=new_playlist_name)
-            #new_playlist    
-            ## create
-            playlist_id=new_playlist['id']
-            sp.user_playlist_add_tracks(username, playlist_id, track_id_list)
-
-            playlists = sp.user_playlists(username)
-            
-            #my_playlist = []
-            #st.success("Success: " + my_playlist[0] + " created.")
-        
-            #if (len(playlists) > 0):
-                
-            myplaylists = playlists['items']
-            
-            display_playlist(myplaylists)
-
-            
+    
 ### Pages
 genre = []
 def page_home():
@@ -399,17 +302,8 @@ def page_home():
 def page_prezi():
     components.html(
         '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRKOq8B3eOumWnBnhbi6MtyoRIKb89M3diXI5VAtKu-i79B2909RrHGnhcvOzXu4EIWNUrkPTIKj-W6/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>' 
-            ,height=640, width=1630)
+            ,height=920, width=1630)
 
-    st.markdown("""
-## Objectives
-
-- Find out Britney Genres
-- Advise Britney how she can remain as a Hitmaker on this streaming era
-- Get list of Collaborators and Competitors
-- Produce Recommended Spotify Playlist
-    """)
-        
 def page_reco_track(df, genre):
 #def page_reco_track(df):
     
@@ -443,51 +337,8 @@ def page_reco_track(df, genre):
     # Top 10 recommendations by `cosine similarity`
     reco_df = reco_df.sort_values('cosine_dist', ascending=False).head(10).reset_index()
     
-    #eco_df = reco_df.sort_values('cosine_dist', ascending=False).reset_index()
-    
     st.text("Recommended Tracks")
     reco_df
-    return reco_df
-    #return recodf
-
-def page_reco_track2(df,n=3,top_n=10):
-#def page_reco_track(df):
-    
-    #st.dataframe(predictions_df)
-    britney_df = df[df.artist_name == 'Britney Spears']
-    #britney_df
-
-    others_df = df[df.artist_name != 'Britney Spears']
-    #others_df
-
-    # EDA - Britney's genres
-    bs_genres = list(britney_df.predicted_genre.unique())
-
-    # EDA - Other Artists' genres
-    other_genres = list(others_df.predicted_genre.unique())
-    
-    tracks = britney_df[['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
-    #tracks = britney_df[['track_id', 'track_name']].set_index('track_id').to_dict()['track_name']
-    #st.dataframe(pd.DataFrame(list(tracks.items()), columns=['track_id','track_name']))
-    
-    seeds = generate_random_seedtracks(tracks, n)
-    seed_track_ids = list(seeds.keys())
-    seedtracks = britney_df[britney_df.track_id.isin(seed_track_ids)].mean()
-    st.json(seeds)
-    
-    reco_df = others_df.copy()
-    
-    reco_df['euclidean_dist'] = others_df.apply(lambda x: euclidean_distances(x[feature_cols].values.reshape(-1, 1), seedtracks[feature_cols].values.reshape(-1, 1)).flatten()[0], axis=1)
-    reco_df['manhattan_dist'] = others_df.apply(lambda x: manhattan_distances(x[feature_cols].values.reshape(-1, 1), seedtracks[feature_cols].values.reshape(-1, 1)).flatten()[0], axis=1)
-    reco_df['cosine_dist'] = others_df.apply(lambda x: 1-cosine_similarity(x[feature_cols].values.reshape(1, -1), seedtracks[feature_cols].values.reshape(1, -1)).flatten()[0], axis=1)
-
-    # Top 10 recommendations by `cosine similarity`
-    #eco_df = reco_df.sort_values('cosine_dist', ascending=False).head(10).reset_index()
-    reco_df = reco_df.sort_values('cosine_dist', ascending=False).head(top_n).reset_index()
-    
-    st.subheader("Recommended Tracks")
-    reco_df
-    return reco_df
     #return recodf
 
 def page_reco_genre(df, genre, dist_algo, n):
@@ -629,7 +480,7 @@ elif (nav == 'Presentation'):
 elif (nav == 'Recommender System' ):
     page_recommender(data)
 elif (nav == 'Spotify Deploy'):
-    page_deploy(data, myplaylists)
+    page_deploy(data)
 
 
 ## Credits
