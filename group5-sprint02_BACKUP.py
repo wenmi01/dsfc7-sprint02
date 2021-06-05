@@ -101,9 +101,9 @@ chart_tracks_df['tempo'] =  scaler.fit_transform(chart_tracks_df[['tempo']])
 
 ###### Variables
 ## Spotify Credentials
-username = 'rob0nismydxooi7jxg95k19mp'
-client_id='b50b238e07504b9fa981137104f61b24'
-client_secret='7a6fc994db03435b9728db16c06268db'
+username = ''
+client_id=''
+client_secret=''
 redirect_uri='https://datadev.bullandbearcapital.com:8502/callback/'
 scopes = ['playlist-modify-public','user-library-modify']
             
